@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppStrings2
+{
+
+    //Concatenates one or more instances of String, or the String representations of the values of one or more instances of Object
+    internal class StringConcat
+    {
+    }
+}
