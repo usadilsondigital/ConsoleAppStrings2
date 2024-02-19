@@ -101,6 +101,14 @@ namespace ConsoleAppStrings2
 
         }
 
+        public  void DisplayArray(string[] values)
+        {
+            Console.WriteLine($"Sorting using the {CultureInfo.CurrentCulture.Name} culture:");
+            foreach (string value in values)
+                Console.WriteLine($"   {value}");
+            Console.WriteLine();
+        }
+
 
 
 
