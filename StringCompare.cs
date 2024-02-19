@@ -15,7 +15,7 @@ namespace ConsoleAppStrings2
     /// >0 MEANS  The substring in strA follows the substring in strB in the sort order. 
     /// </summary>
 
-    Zero
+    ///https://learn.microsoft.com/en-us/dotnet/standard/base-types/best-practices-strings
 
     internal class StringCompare
     {
