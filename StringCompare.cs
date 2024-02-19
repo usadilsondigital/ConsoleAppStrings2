@@ -40,7 +40,13 @@ namespace ConsoleAppStrings2
             if (String.Compare(name1, index1, name2, index2, max_length,
                                new CultureInfo("en-US"), CompareOptions.IgnoreCase) < 0)
                 Console.WriteLine("{0}\n{1}", name1, name2);
-          
+            else
+                Console.WriteLine("{0}\n{1}", name2, name1);
+
+            // The example displays the following output:
+            //       Sorted alphabetically by last name:
+            //       John Doe
+            //       Jack Smith
 
 
         }
