@@ -31,8 +31,10 @@ namespace ConsoleAppStrings2
             // Get position of character after the space character.
             int index1 = name1.IndexOf(" ");
             index1 = index1 < 0 ? 0 : ++index1;
+            int index2 = name2.IndexOf(" ");
+            index2 = index2 < 0 ? 0 : ++index2;
 
-          
+
         }
     }
 }
