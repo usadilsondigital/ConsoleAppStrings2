@@ -93,6 +93,9 @@ namespace ConsoleAppStrings2
         // Change culture to Swedish (Sweden)
         string originalCulture = CultureInfo.CurrentCulture.Name;
         Thread.CurrentThread.CurrentCulture = new CultureInfo("sv-SE");
+        Array.Sort(values);
+        DisplayArray(values);
+
 
         }
 
