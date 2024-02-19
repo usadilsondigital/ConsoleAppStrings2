@@ -175,7 +175,11 @@ namespace ConsoleAppStrings2
 
             // Displays the properties and values of the ArrayList.
             Console.WriteLine("Count: {0}", myAL.Count);
-
+            PrintValues("Unsorted", myAL);
+            myAL.Sort();
+            PrintValues("Sorted", myAL);
+            myAL.Sort(new ReverseStringComparer());
+            PrintValues("Reverse", myAL);
 
 
         }
