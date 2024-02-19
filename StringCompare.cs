@@ -29,15 +29,16 @@ namespace ConsoleAppStrings2
             name2 = string.Empty;
         }
 
-        public StringCompare(string name1,string name2)
+        public StringCompare(string name1, string name2)
         {
             this.name1 = name1 ?? string.Empty;
             this.name2 = name2 ?? string.Empty;
         }
 
-        public void UsingCompare() {
-             name1 = "Jack Smith";
-             name2 = "John Doe";
+        public void UsingCompare()
+        {
+            name1 = "Jack Smith";
+            name2 = "John Doe";
 
             // Get position of character after the space character.
             int index1 = name1.IndexOf(" ");
@@ -63,7 +64,8 @@ namespace ConsoleAppStrings2
         }
 
 
-        public void Compare2Substrings() {
+        public void Compare2Substrings()
+        {
 
             String str1 = "machine";
             String str2 = "device";
@@ -84,21 +86,22 @@ namespace ConsoleAppStrings2
                 */
         }
 
-        public void SortingDiffCultures() {
-        //Words to sort
-        string[] values = { "able", "ångström", "apple", "Æble","Windows", "Visual Studio" };
-        // Current culture
-        Array.Sort(values);
-        DisplayArray(values);
+        public void SortingDiffCultures()
+        {
+            //Words to sort
+            string[] values = { "able", "ångström", "apple", "Æble", "Windows", "Visual Studio" };
+            // Current culture
+            Array.Sort(values);
+            DisplayArray(values);
 
-        // Change culture to Swedish (Sweden)
-        string originalCulture = CultureInfo.CurrentCulture.Name;
-        Thread.CurrentThread.CurrentCulture = new CultureInfo("sv-SE");
-        Array.Sort(values);
-        DisplayArray(values);
+            // Change culture to Swedish (Sweden)
+            string originalCulture = CultureInfo.CurrentCulture.Name;
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("sv-SE");
+            Array.Sort(values);
+            DisplayArray(values);
 
-        // Restore the original culture
-        Thread.CurrentThread.CurrentCulture = new CultureInfo(originalCulture);
+            // Restore the original culture
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(originalCulture);
             // The example displays the following output:
             //     Sorting using the en-US culture:
             //        able
@@ -117,14 +120,15 @@ namespace ConsoleAppStrings2
             //        Æble
         }
 
-        public  void DisplayArray(string[] values)
+        public void DisplayArray(string[] values)
         {
             Console.WriteLine($"Sorting using the {CultureInfo.CurrentCulture.Name} culture:");
             foreach (string value in values)
                 Console.WriteLine($"   {value}");
             Console.WriteLine();
         }
-        public void StringVariantsBetweenCultures() {
+        public void StringVariantsBetweenCultures()
+        {
 
 
             string name = "Bill";
@@ -154,7 +158,8 @@ namespace ConsoleAppStrings2
 
         }
 
-        public void ArrayListString() {
+        public void ArrayListString()
+        {
 
             ArrayList myAL = new ArrayList();
             myAL.Add("Eric");
@@ -167,6 +172,12 @@ namespace ConsoleAppStrings2
             myAL.Add("Bradley");
             myAL.Add("Keith");
             myAL.Add("Susan");
+
+            // Displays the properties and values of the ArrayList.
+            Console.WriteLine("Count: {0}", myAL.Count);
+
+
+
         }
     }
 }
