@@ -22,19 +22,22 @@ namespace ConsoleAppStrings2
             // Initialize the random number generator.
             Random rnd = new Random();
 
-            for (int ctr = 0; ctr < word.Length; ctr++)
+            // Scramble each word.
+            foreach (string word in words)
             {
-                // Populate the array of keys with random numbers.
-                keys[ctr] = rnd.NextDouble();
-                // Assign a letter to the array of letters.
-                letters[ctr] = word[ctr].ToString();
-            } 
-            // Sort the array. 
-            Array.Sort(keys, letters, 0, WORD_SIZE, Comparer.Default);
-            // Display the scrambled word.
-            string scrambledWord = String.Concat(letters[0], letters[1],letters[2], letters[3]);
+                for (int ctr = 0; ctr < word.Length; ctr++)
+                {
+                    // Populate the array of keys with random numbers.
+                    keys[ctr] = rnd.NextDouble();
+                    // Assign a letter to the array of letters.
+                    letters[ctr] = word[ctr].ToString();
+                }
+                // Sort the array. 
+                Array.Sort(keys, letters, 0, WORD_SIZE, Comparer.Default);
+                // Display the scrambled word.
+                string scrambledWord = String.Concat(letters[0], letters[1], letters[2], letters[3]);
 
-
+            }
         }
     }
 }
