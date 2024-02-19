@@ -75,7 +75,12 @@ namespace ConsoleAppStrings2
             Console.Write("Substring '{0}' in '{1}' is ", str1.Substring(2, 2), str1);
             Console.Write("{0} ", str);
             Console.WriteLine("substring '{0}' in '{1}'.", str2.Substring(0, 2), str2);
+            /*
+                This example produces the following results:
 
+                str1 = 'machine', str2 = 'device'
+                Substring 'ch' in 'machine' is less than substring 'de' in 'device'.
+                */
         }
 
 
