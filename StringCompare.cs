@@ -158,6 +158,18 @@ namespace ConsoleAppStrings2
 
         }
 
+        public static void PrintValues(string title, IEnumerable myList)
+        {
+            Console.Write("{0,10}: ", title);
+            StringBuilder sb = new StringBuilder();
+            foreach (string s in myList)
+            {
+                sb.AppendFormat("{0}, ", s);
+            }
+            sb.Remove(sb.Length - 2, 2);
+            Console.WriteLine(sb);
+        }
+
         public void ArrayListString()
         {
 
