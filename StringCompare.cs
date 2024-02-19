@@ -34,6 +34,10 @@ namespace ConsoleAppStrings2
             int index2 = name2.IndexOf(" ");
             index2 = index2 < 0 ? 0 : ++index2;
 
+            int max_length = Math.Max(name1.Length, name2.Length);
+
+
+
 
         }
     }
