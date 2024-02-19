@@ -140,6 +140,15 @@ namespace ConsoleAppStrings2
             Console.WriteLine($"   Does 'Bill' start with 'BILL'? {name.StartsWith("BILL", true, null)}");
 
 
+            //' The example displays the following output:
+            //'
+            //'     Culture = English (United States)
+            //'        Is 'Bill' the same as 'BILL'? True
+            //'        Does 'Bill' start with 'BILL'? True
+            //'     
+            //'     Culture = Turkish (Türkiye)
+            //'        Is 'Bill' the same as 'BILL'? True
+            //'        Does 'Bill' start with 'BILL'? False
 
 
         }
