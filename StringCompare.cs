@@ -68,6 +68,9 @@ namespace ConsoleAppStrings2
             String str2 = "device";
             String str;
             int result;
+            Console.WriteLine();
+            Console.WriteLine("str1 = '{0}', str2 = '{1}'", str1, str2);
+            result = String.Compare(str1, 2, str2, 0, 2);
 
 
         }
