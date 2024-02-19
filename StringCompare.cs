@@ -181,6 +181,7 @@ namespace ConsoleAppStrings2
             myAL.Sort(new ReverseStringComparer());
             PrintValues("Reverse", myAL);
 
+            string[] names = (string[])myAL.ToArray(typeof(string));
 
         }
     }
