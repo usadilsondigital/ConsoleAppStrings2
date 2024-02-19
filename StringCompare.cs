@@ -96,6 +96,8 @@ namespace ConsoleAppStrings2
         Array.Sort(values);
         DisplayArray(values);
 
+        // Restore the original culture
+        Thread.CurrentThread.CurrentCulture = new CultureInfo(originalCulture);
 
         }
 
