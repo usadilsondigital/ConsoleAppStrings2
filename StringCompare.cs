@@ -98,7 +98,22 @@ namespace ConsoleAppStrings2
 
         // Restore the original culture
         Thread.CurrentThread.CurrentCulture = new CultureInfo(originalCulture);
-
+            // The example displays the following output:
+            //     Sorting using the en-US culture:
+            //        able
+            //        Æble
+            //        ångström
+            //        apple
+            //        Visual Studio
+            //        Windows
+            //
+            //     Sorting using the sv-SE culture:
+            //        able
+            //        apple
+            //        Visual Studio
+            //        Windows
+            //        ångström
+            //        Æble
         }
 
         public  void DisplayArray(string[] values)
