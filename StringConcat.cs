@@ -38,6 +38,15 @@ namespace ConsoleAppStrings2
                 string scrambledWord = String.Concat(letters[0], letters[1], letters[2], letters[3]);
 
             }
+            // The example displays output like the following:
+            //       home --> mheo
+            //       food --> oodf
+            //       game --> aemg
+            //       rest --> trse
+        }
+
+
+
+
         }
     }
-}
