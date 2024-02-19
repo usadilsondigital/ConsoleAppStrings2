@@ -18,6 +18,18 @@ namespace ConsoleAppStrings2
             // Define two arrays equal to the number of letters in each word.
             double[] keys = new double[WORD_SIZE];
             string[] letters = new string[WORD_SIZE];
+            // Initialize the random number generator.
+            Random rnd = new Random();
+
+            for (int ctr = 0; ctr < word.Length; ctr++)
+            {
+                // Populate the array of keys with random numbers.
+                keys[ctr] = rnd.NextDouble();
+                // Assign a letter to the array of letters.
+                letters[ctr] = word[ctr].ToString();
+            }
+
+
         }
     }
 }
