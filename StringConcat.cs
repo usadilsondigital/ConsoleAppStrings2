@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,11 @@ namespace ConsoleAppStrings2
                 keys[ctr] = rnd.NextDouble();
                 // Assign a letter to the array of letters.
                 letters[ctr] = word[ctr].ToString();
-            }
+            } 
+            // Sort the array. 
+            Array.Sort(keys, letters, 0, WORD_SIZE, Comparer.Default);
+            // Display the scrambled word.
+            string scrambledWord = String.Concat(letters[0], letters[1],letters[2], letters[3]);
 
 
         }
