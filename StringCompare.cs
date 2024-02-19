@@ -83,6 +83,18 @@ namespace ConsoleAppStrings2
                 */
         }
 
+        public void SortingDiffCultures() {
+        //Words to sort
+        string[] values = { "able", "ångström", "apple", "Æble","Windows", "Visual Studio" };
+        // Current culture
+        Array.Sort(values);
+        DisplayArray(values);
+
+        }
+
+
+
+
 
     }
 }
