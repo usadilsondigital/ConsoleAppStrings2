@@ -7,6 +7,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+
+
+    /// <summary>
+    /// <0 MEANS The substring in strA precedes the substring in strB in the sort order.  
+    /// =0 MEANS The substrings occur in the same position in the sort order, or length is zero.  
+    /// >0 MEANS  The substring in strA follows the substring in strB in the sort order. 
+    /// </summary>
+
+    Zero
+
     internal class StringCompare
     {
         public string name1 { get; set; }
