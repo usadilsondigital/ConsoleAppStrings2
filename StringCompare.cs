@@ -39,6 +39,8 @@ namespace ConsoleAppStrings2
             Console.WriteLine("Sorted alphabetically by last name:");
             if (String.Compare(name1, index1, name2, index2, max_length,
                                new CultureInfo("en-US"), CompareOptions.IgnoreCase) < 0)
+                Console.WriteLine("{0}\n{1}", name1, name2);
+          
 
 
         }
