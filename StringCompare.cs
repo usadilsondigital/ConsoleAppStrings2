@@ -123,9 +123,17 @@ namespace ConsoleAppStrings2
                 Console.WriteLine($"   {value}");
             Console.WriteLine();
         }
+        public void StringVariantsBetweenCultures() {
 
 
+            string name = "Bill";
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            Console.WriteLine($"Culture = {Thread.CurrentThread.CurrentCulture.DisplayName}");
+            Console.WriteLine($"   Is 'Bill' the same as 'BILL'? {name.Equals("BILL", StringComparison.OrdinalIgnoreCase)}");
+            Console.WriteLine($"   Does 'Bill' start with 'BILL'? {name.StartsWith("BILL", true, null)}");
+            Console.WriteLine();
 
+        }
 
 
     }
