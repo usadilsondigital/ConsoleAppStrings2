@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -153,6 +154,19 @@ namespace ConsoleAppStrings2
 
         }
 
+        public void ArrayListString() {
 
+            ArrayList myAL = new ArrayList();
+            myAL.Add("Eric");
+            myAL.Add("Mark");
+            myAL.Add("Lance");
+            myAL.Add("Rob");
+            myAL.Add("Kris");
+            myAL.Add("Brad");
+            myAL.Add("Kit");
+            myAL.Add("Bradley");
+            myAL.Add("Keith");
+            myAL.Add("Susan");
+        }
     }
 }
