@@ -60,5 +60,18 @@ namespace ConsoleAppStrings2
 
 
         }
+
+
+        public void Compare2Substrings() {
+
+            String str1 = "machine";
+            String str2 = "device";
+            String str;
+            int result;
+
+
+        }
+
+
     }
 }
