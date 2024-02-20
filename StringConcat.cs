@@ -102,6 +102,16 @@ namespace ConsoleAppStrings2
             Console.WriteLine(s);
         }
 
+        public void ConcatAnimalKind() {
+            List<Animal> animals = new List<Animal>();
+            animals.Add(new Animal("Squirrel", "Rodent"));
+            animals.Add(new Animal("Gray Wolf", "Carnivora"));
+            animals.Add(new Animal("Capybara", "Rodent"));
+            string output = String.Concat(animals.Where(animal => (animal.Order == "Rodent")));
+            Console.WriteLine(output);
+        }
+    }
+
 
     }
     }
