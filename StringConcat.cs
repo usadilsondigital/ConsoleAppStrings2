@@ -74,6 +74,12 @@ namespace ConsoleAppStrings2
         }
 
 
+        public void ConcatTest() {
+            // we want to simply quickly add this person's name together
+            string fName = "Simon";
+            string mName = "Jake";
+            string lName = "Harrows";
+        }
 
 
     }
