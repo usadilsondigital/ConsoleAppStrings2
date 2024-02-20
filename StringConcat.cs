@@ -93,6 +93,15 @@ namespace ConsoleAppStrings2
 
         }
 
+        public void ConcatThree() {
+            String s1 = "We went to a bookstore, ";
+            String s2 = "a movie, ";
+            String s3 = "and a restaurant.";
+
+            var s = String.Concat(s1, s2, s3);
+            Console.WriteLine(s);
+        }
+
 
     }
     }
