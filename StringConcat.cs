@@ -54,6 +54,9 @@ namespace ConsoleAppStrings2
             Console.WriteLine("1) {0}", String.Concat(o));
             Console.WriteLine("2) {0}", String.Concat(o, o));
             Console.WriteLine("3) {0}", String.Concat(o, o, o));
+            Console.WriteLine("\nConcatenate 4 objects and a variable length parameter list:");
+            Console.WriteLine("4) {0}", String.Concat(o, o, o, o));
+            Console.WriteLine("5) {0}", String.Concat(o, o, o, o, o));
         }
 
 
