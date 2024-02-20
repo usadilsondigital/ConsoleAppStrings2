@@ -46,6 +46,10 @@ namespace ConsoleAppStrings2
             comp = StringComparison.OrdinalIgnoreCase;
             Console.WriteLine("   {0:G}: {1}", comp, s.Contains(sub1, comp));
 
+            // The example displays the following output:
+            //       Does 'This is a string.' contain 'this'?
+            //          Ordinal: False
+            //          OrdinalIgnoreCase: True
         }
 
 
