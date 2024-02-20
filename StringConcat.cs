@@ -88,6 +88,9 @@ namespace ConsoleAppStrings2
             // this line simply concatenates the two strings
             Console.WriteLine("Welcome to this page, '{0}'!", string.Concat(string.Concat(fName, mName), lName));
 
+            // The example displays the following output:
+            //        Welcome to this page, 'Simon Jake Harrows'!
+
         }
 
 
