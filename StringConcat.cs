@@ -84,6 +84,10 @@ namespace ConsoleAppStrings2
             // the fact that a space may already be there
             mName = " " + mName.Trim();
             lName = " " + lName.Trim();
+
+            // this line simply concatenates the two strings
+            Console.WriteLine("Welcome to this page, '{0}'!", string.Concat(string.Concat(fName, mName), lName));
+
         }
 
 
