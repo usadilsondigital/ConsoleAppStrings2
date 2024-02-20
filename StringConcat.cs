@@ -45,6 +45,12 @@ namespace ConsoleAppStrings2
             //       rest --> trse
         }
 
+        public void StringConcat5() {
+            int i = -123;
+            Object o = i;
+            Object[] objs = new Object[] { -123, -456, -789 };
+        }
+
 
 
 
