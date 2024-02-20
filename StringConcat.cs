@@ -49,6 +49,11 @@ namespace ConsoleAppStrings2
             int i = -123;
             Object o = i;
             Object[] objs = new Object[] { -123, -456, -789 };
+
+            Console.WriteLine("Concatenate 1, 2, and 3 objects:");
+            Console.WriteLine("1) {0}", String.Concat(o));
+            Console.WriteLine("2) {0}", String.Concat(o, o));
+            Console.WriteLine("3) {0}", String.Concat(o, o, o));
         }
 
 
