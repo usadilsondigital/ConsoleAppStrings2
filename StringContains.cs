@@ -26,5 +26,14 @@ namespace ConsoleAppStrings2
         }
 
 
+        public static bool ExceptionContains(this String str, String substring,StringComparison comp)
+        {
+            if (substring == null)
+                throw new ArgumentNullException("substring","substring cannot be null.");
+           
+            return str.IndexOf(substring, comp) >= 0;
+        }
+
+
     }
 }
