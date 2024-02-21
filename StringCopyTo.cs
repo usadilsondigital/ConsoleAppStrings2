@@ -31,6 +31,11 @@ namespace ConsoleAppStrings2
             // Print the resulting array
             Console.WriteLine(destination);
 
+            // The example displays the following output:
+            //       The initial array
+            //       The changed array
+            //       Thedifferentarray
+
         }
 
     }
