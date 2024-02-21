@@ -28,6 +28,9 @@ namespace ConsoleAppStrings2
             // Embed only a section of the source string in the destination
             strSource.CopyTo(2, destination, 3, 9);
 
+            // Print the resulting array
+            Console.WriteLine(destination);
+
         }
 
     }
