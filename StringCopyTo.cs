@@ -20,6 +20,8 @@ namespace ConsoleAppStrings2
             Console.WriteLine(destination);
             // Embed the source string in the destination string
             strSource.CopyTo(0, destination, 4, strSource.Length);
+            // Print the resulting array
+            Console.WriteLine(destination);
         }
 
     }
