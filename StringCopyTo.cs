@@ -22,6 +22,12 @@ namespace ConsoleAppStrings2
             strSource.CopyTo(0, destination, 4, strSource.Length);
             // Print the resulting array
             Console.WriteLine(destination);
+
+            strSource = "A different string";
+
+            // Embed only a section of the source string in the destination
+            strSource.CopyTo(2, destination, 3, 9);
+
         }
 
     }
