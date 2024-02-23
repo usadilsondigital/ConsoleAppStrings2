@@ -13,6 +13,11 @@ namespace ConsoleAppStrings2
         public void ArrayEndsWithPeriod()
         {
             String[] strings = { "This is a string.", "Hello!", "Nothing.","Yes.", "randomize" };
+            foreach (var value in strings)
+            {
+               
+            }
+
         }
     }
 }
