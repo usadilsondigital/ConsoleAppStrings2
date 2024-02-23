@@ -15,7 +15,8 @@ namespace ConsoleAppStrings2
             String[] strings = { "This is a string.", "Hello!", "Nothing.","Yes.", "randomize" };
             foreach (var value in strings)
             {
-               
+                bool endsInPeriod = value.EndsWith(".");
+                Console.WriteLine("'{0}' ends in a period: {1}",value, endsInPeriod);
             }
 
         }
