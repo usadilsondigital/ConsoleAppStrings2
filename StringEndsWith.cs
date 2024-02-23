@@ -35,6 +35,9 @@ namespace ConsoleAppStrings2
 
             Console.WriteLine("The following lists the items before the ends have been stripped:");
             Console.WriteLine("-----------------------------------------------------------------");
+            // print out the initial array of strings
+            foreach (string s in strSource)
+                Console.WriteLine(s);
 
 
         }
