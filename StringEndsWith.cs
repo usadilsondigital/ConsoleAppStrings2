@@ -67,7 +67,10 @@ namespace ConsoleAppStrings2
                     item = item.Substring(0, lastLocation);
                 }
             }
-            }
+            if (found)
+                item = StripEndTags(item);
+
+        }
 
 
 
