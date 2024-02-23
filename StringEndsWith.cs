@@ -12,9 +12,7 @@ namespace ConsoleAppStrings2
     {
         public void ArrayEndsWithPeriod()
         {
-            String[] strings = { "This is a string.", "Hello!", "Nothing.",
-                           "Yes.", "randomize" 
-            };
+            String[] strings = { "This is a string.", "Hello!", "Nothing.","Yes.", "randomize" };
         }
     }
 }
