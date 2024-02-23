@@ -26,5 +26,15 @@ namespace ConsoleAppStrings2
             //       'randomize' ends in a period: False
 
         }
+
+
+        public void FileHtmlTags() {
+            string[] strSource = { "<b>This is bold text</b>", "<H1>This is large Text</H1>",
+                "<b><i><font color=green>This has multiple tags</font></i></b>","<b>This has <i>embedded</i> tags.</b>",
+                "This line simply ends with a greater than symbol, it should not be modified>" };
+
+
+        }
+
     }
 }
