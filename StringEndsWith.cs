@@ -57,6 +57,8 @@ namespace ConsoleAppStrings2
             // try to find a tag at the end of the line using EndsWith
             if (item.Trim().EndsWith(">"))
             {
+                // now search for the opening tag...
+                int lastLocation = item.LastIndexOf("</");
             }
             }
 
