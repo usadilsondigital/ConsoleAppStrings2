@@ -10,5 +10,8 @@ namespace ConsoleAppStrings2
     //Determines whether the end of this string instance matches a specified string.
     public class StringEndsWith
     {
+        public void ArrayEndsWithPeriod() {
+ 
+                }
     }
 }
