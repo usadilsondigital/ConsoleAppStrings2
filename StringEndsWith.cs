@@ -39,6 +39,8 @@ namespace ConsoleAppStrings2
             foreach (string s in strSource)
                 Console.WriteLine(s);
 
+            Console.WriteLine();
+
 
         }
 
