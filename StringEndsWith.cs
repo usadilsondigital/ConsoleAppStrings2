@@ -59,6 +59,13 @@ namespace ConsoleAppStrings2
             {
                 // now search for the opening tag...
                 int lastLocation = item.LastIndexOf("</");
+
+                // remove the identified section, if it is a valid region
+                if (lastLocation >= 0)
+                {
+                    found = true;
+                    item = item.Substring(0, lastLocation);
+                }
             }
             }
 
