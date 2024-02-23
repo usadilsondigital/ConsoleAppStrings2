@@ -52,7 +52,12 @@ namespace ConsoleAppStrings2
             private static string StripEndTags(string item)
             {
 
+            bool found = false;
 
+            // try to find a tag at the end of the line using EndsWith
+            if (item.Trim().EndsWith(">"))
+            {
+            }
             }
 
 
