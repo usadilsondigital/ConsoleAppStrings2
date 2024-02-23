@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+
+    //Determines whether the end of this string instance matches a specified string.
     internal class StringEndsWith
     {
     }
