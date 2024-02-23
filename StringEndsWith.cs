@@ -12,11 +12,11 @@ namespace ConsoleAppStrings2
     {
         public void ArrayEndsWithPeriod()
         {
-            String[] strings = { "This is a string.", "Hello!", "Nothing.","Yes.", "randomize" };
+            String[] strings = { "This is a string.", "Hello!", "Nothing.", "Yes.", "randomize" };
             foreach (var value in strings)
             {
                 bool endsInPeriod = value.EndsWith(".");
-                Console.WriteLine("'{0}' ends in a period: {1}",value, endsInPeriod);
+                Console.WriteLine("'{0}' ends in a period: {1}", value, endsInPeriod);
             }
             // The example displays the following output:
             //       'This is a string.' ends in a period: True
@@ -49,8 +49,8 @@ namespace ConsoleAppStrings2
             foreach (var s in strSource)
                 Console.WriteLine(StripEndTags(s));
         }
-            private static string StripEndTags(string item)
-            {
+        private static string StripEndTags(string item)
+        {
 
             bool found = false;
 
@@ -69,10 +69,28 @@ namespace ConsoleAppStrings2
             }
             if (found)
                 item = StripEndTags(item);
-
+            return item;
         }
+        /*output example*/
+    // The example displays the following output:
+    //    The following lists the items before the ends have been stripped:
+    //    -----------------------------------------------------------------
+    //    <b>This is bold text</b>
+    //    <H1>This is large Text</H1>
+    //    <b><i><font color=green>This has multiple tags</font></i></b>
+    //    <b>This has <i>embedded</i> tags.</b>
+    //    This line simply ends with a greater than symbol, it should not be modified>
+    //
+    //    The following lists the items after the ends have been stripped:
+    //    ----------------------------------------------------------------
+    //    <b>This is bold text
+    //    <H1>This is large Text
+    //    <b><i><font color=green>This has multiple tags
+    //    <b>This has <i>embedded</i> tags.
+    //    This line simply ends with a greater than symbol, it should not be modified>
 
 
 
-        }
+
+}
 }
