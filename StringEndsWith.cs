@@ -41,8 +41,16 @@ namespace ConsoleAppStrings2
 
             Console.WriteLine();
 
+            Console.WriteLine("The following lists the items after the ends have been stripped:");
+            Console.WriteLine("----------------------------------------------------------------");
 
+            // print out the array of strings
+            foreach (var s in strSource)
+                Console.WriteLine(StripEndTags(s));
         }
+
+
+    }
 
     }
 }
