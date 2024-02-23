@@ -33,6 +33,9 @@ namespace ConsoleAppStrings2
                 "<b><i><font color=green>This has multiple tags</font></i></b>","<b>This has <i>embedded</i> tags.</b>",
                 "This line simply ends with a greater than symbol, it should not be modified>" };
 
+            Console.WriteLine("The following lists the items before the ends have been stripped:");
+            Console.WriteLine("-----------------------------------------------------------------");
+
 
         }
 
