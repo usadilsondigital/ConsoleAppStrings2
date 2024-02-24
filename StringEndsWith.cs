@@ -124,9 +124,10 @@ namespace ConsoleAppStrings2
 
         protected static void Test(string x, string y, StringComparison comparison)
         {
-        
+            string resultFmt = "\"{0}\" {1} with \"{2}\".";
+            string result = "does not end";
         }
 
 
-    z}
+    }
 }
