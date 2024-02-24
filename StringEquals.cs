@@ -10,5 +10,15 @@ namespace ConsoleAppStrings2
     public class StringEquals
     {
 
+
+        public void StringEqualsTest() {
+            StringBuilder sb = new StringBuilder("abcd");
+            String str1 = "abcd";
+            String str2 = null;
+            Object o2 = null;
+
+        }
+
+
     }
 }
