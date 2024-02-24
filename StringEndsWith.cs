@@ -126,6 +126,10 @@ namespace ConsoleAppStrings2
         {
             string resultFmt = "\"{0}\" {1} with \"{2}\".";
             string result = "does not end";
+
+            if (x.EndsWith(y, comparison))
+                result = "ends";
+            Console.WriteLine(resultFmt, x, result, y);
         }
 
 
