@@ -16,6 +16,10 @@ namespace ConsoleAppStrings2
             String str1 = "abcd";
             String str2 = null;
             Object o2 = null;
+            Console.WriteLine();
+            Console.WriteLine(" *  The value of String str1 is '{0}'.", str1);
+            Console.WriteLine(" *  The value of StringBuilder sb is '{0}'.", sb.ToString());
+
 
         }
 
