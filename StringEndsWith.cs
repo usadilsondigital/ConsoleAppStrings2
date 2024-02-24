@@ -130,6 +130,39 @@ namespace ConsoleAppStrings2
             if (x.EndsWith(y, comparison))
                 result = "ends";
             Console.WriteLine(resultFmt, x, result, y);
+            /*
+This code example produces the following results:
+
+Determine whether a string ends with another string, using
+  different values of StringComparison.
+The current culture is en-US.
+
+StringComparison.CurrentCulture:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" does not end with "xyz".
+
+StringComparison.CurrentCultureIgnoreCase:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" ends with "xyz".
+
+StringComparison.InvariantCulture:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" does not end with "xyz".
+
+StringComparison.InvariantCultureIgnoreCase:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" ends with "xyz".
+
+StringComparison.Ordinal:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" does not end with "xyz".
+
+StringComparison.OrdinalIgnoreCase:
+"abcXYZ" ends with "XYZ".
+"abcXYZ" ends with "xyz".
+
+*/
+            Remarks
         }
 
 
