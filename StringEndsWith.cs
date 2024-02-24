@@ -110,6 +110,15 @@ namespace ConsoleAppStrings2
             // can produce different results with different cultures.
             Console.WriteLine("The current culture is {0}.\n",Thread.CurrentThread.CurrentCulture.Name);
 
+            // Determine whether three versions of the letter I are equal to each other. 
+            foreach (StringComparison sc in scValues)
+            {
+                Console.WriteLine("StringComparison.{0}:", sc);
+                Test("abcXYZ", "XYZ", sc);
+                Test("abcXYZ", "xyz", sc);
+                Console.WriteLine();
+            }
+
         }
 
     }
