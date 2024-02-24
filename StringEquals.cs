@@ -20,6 +20,10 @@ namespace ConsoleAppStrings2
             Console.WriteLine(" *  The value of String str1 is '{0}'.", str1);
             Console.WriteLine(" *  The value of StringBuilder sb is '{0}'.", sb.ToString());
 
+            Console.WriteLine();
+            Console.WriteLine("1a) String.Equals(Object). Object is a StringBuilder, not a String.");
+            Console.WriteLine("    Is str1 equal to sb?: {0}", str1.Equals(sb));
+
 
         }
 
