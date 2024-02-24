@@ -33,6 +33,9 @@ namespace ConsoleAppStrings2
             Console.WriteLine("    Is str1 equal to o2?: {0}", str1.Equals(o2));
 
             Console.WriteLine();
+            Console.WriteLine(" 2) String.Equals(String)");
+            Console.WriteLine(" *  The value of String str2 is '{0}'.", str2);
+            Console.WriteLine("    Is str1 equal to str2?: {0}", str1.Equals(str2));
         }
 
 
