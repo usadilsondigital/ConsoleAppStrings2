@@ -91,6 +91,12 @@ namespace ConsoleAppStrings2
 
 
 
+        public void ParticularSubstring() {
+
+            string intro = "Determine whether a string ends with another string, " +
+                       "using\n  different values of StringComparison.";
+        
+        }
 
     }
 }
