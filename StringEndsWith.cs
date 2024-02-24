@@ -72,25 +72,25 @@ namespace ConsoleAppStrings2
             return item;
         }
         /*output example*/
-    // The example displays the following output:
-    //    The following lists the items before the ends have been stripped:
-    //    -----------------------------------------------------------------
-    //    <b>This is bold text</b>
-    //    <H1>This is large Text</H1>
-    //    <b><i><font color=green>This has multiple tags</font></i></b>
-    //    <b>This has <i>embedded</i> tags.</b>
-    //    This line simply ends with a greater than symbol, it should not be modified>
-    //
-    //    The following lists the items after the ends have been stripped:
-    //    ----------------------------------------------------------------
-    //    <b>This is bold text
-    //    <H1>This is large Text
-    //    <b><i><font color=green>This has multiple tags
-    //    <b>This has <i>embedded</i> tags.
-    //    This line simply ends with a greater than symbol, it should not be modified>
+        // The example displays the following output:
+        //    The following lists the items before the ends have been stripped:
+        //    -----------------------------------------------------------------
+        //    <b>This is bold text</b>
+        //    <H1>This is large Text</H1>
+        //    <b><i><font color=green>This has multiple tags</font></i></b>
+        //    <b>This has <i>embedded</i> tags.</b>
+        //    This line simply ends with a greater than symbol, it should not be modified>
+        //
+        //    The following lists the items after the ends have been stripped:
+        //    ----------------------------------------------------------------
+        //    <b>This is bold text
+        //    <H1>This is large Text
+        //    <b><i><font color=green>This has multiple tags
+        //    <b>This has <i>embedded</i> tags.
+        //    This line simply ends with a greater than symbol, it should not be modified>
 
 
 
 
-}
+    }
 }
