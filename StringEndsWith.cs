@@ -119,7 +119,14 @@ namespace ConsoleAppStrings2
                 Console.WriteLine();
             }
 
+
         }
 
-    }
+        protected static void Test(string x, string y, StringComparison comparison)
+        {
+        
+        }
+
+
+    z}
 }
