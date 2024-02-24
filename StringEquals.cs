@@ -29,6 +29,10 @@ namespace ConsoleAppStrings2
             str2 = sb.ToString();
             o2 = str2;
 
+            Console.WriteLine(" *  The value of Object o2 is '{0}'.", o2);
+            Console.WriteLine("    Is str1 equal to o2?: {0}", str1.Equals(o2));
+
+            Console.WriteLine();
         }
 
 
