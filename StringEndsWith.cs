@@ -104,6 +104,12 @@ namespace ConsoleAppStrings2
             StringComparison.Ordinal,
             StringComparison.OrdinalIgnoreCase };
 
+            Console.WriteLine(intro);
+
+            // Display the current culture because the culture-specific comparisons
+            // can produce different results with different cultures.
+            Console.WriteLine("The current culture is {0}.\n",Thread.CurrentThread.CurrentCulture.Name);
+
         }
 
     }
