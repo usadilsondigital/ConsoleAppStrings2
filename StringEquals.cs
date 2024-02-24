@@ -40,6 +40,26 @@ namespace ConsoleAppStrings2
             Console.WriteLine();
             Console.WriteLine(" 3) String.Equals(String, String)");
             Console.WriteLine("    Is str1 equal to str2?: {0}", String.Equals(str1, str2));
+            /*
+This example produces the following results:
+
+ *  The value of String str1 is 'abcd'.
+ *  The value of StringBuilder sb is 'abcd'.
+
+1a) String.Equals(Object). Object is a StringBuilder, not a String.
+    Is str1 equal to sb?: False
+
+1b) String.Equals(Object). Object is a String.
+ *  The value of Object o2 is 'abcd'.
+    Is str1 equal to o2?: True
+
+ 2) String.Equals(String)
+ *  The value of String str2 is 'abcd'.
+    Is str1 equal to str2?: True
+
+ 3) String.Equals(String, String)
+    Is str1 equal to str2?: True
+*/
         }
 
 
