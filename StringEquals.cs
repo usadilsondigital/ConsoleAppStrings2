@@ -24,6 +24,10 @@ namespace ConsoleAppStrings2
             Console.WriteLine("1a) String.Equals(Object). Object is a StringBuilder, not a String.");
             Console.WriteLine("    Is str1 equal to sb?: {0}", str1.Equals(sb));
 
+            Console.WriteLine();
+            Console.WriteLine("1b) String.Equals(Object). Object is a String.");
+            str2 = sb.ToString();
+            o2 = str2;
 
         }
 
