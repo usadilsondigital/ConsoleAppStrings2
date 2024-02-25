@@ -31,6 +31,14 @@ namespace ConsoleAppStrings2
             //      The current price is $17.36 per ounce.
         }
 
+        public void FormatThree()
+        {
+            decimal temp = 20.4m;
+            string s = String.Format("The temperature is {0}°C.", temp);
+            Console.WriteLine(s);
+            // Displays 'The temperature is 20.4°C.'
+        }
+
 
     }
     }
