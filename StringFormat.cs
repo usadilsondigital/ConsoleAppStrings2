@@ -47,6 +47,13 @@ namespace ConsoleAppStrings2
             // Output similar to: 'At 4/10/2015 9:29:41 AM, the temperature is 20.4°C.'
         }
 
+        public void FormatFive()
+        {
+            string s = String.Format("It is now {0:d} at {0:t}", DateTime.Now);
+            Console.WriteLine(s);
+            // Output similar to: 'It is now 4/10/2015 at 10:04 AM'
+        }
+
 
     }
     }
