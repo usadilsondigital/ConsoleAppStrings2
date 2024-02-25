@@ -54,7 +54,7 @@ namespace ConsoleAppStrings2
             // Output similar to: 'It is now 4/10/2015 at 10:04 AM'
         }
 
-        public string Format2Args() {
+        public void Format2Args() {
             Dictionary<DateTime, Double> temperatureInfo = new Dictionary<DateTime, Double>();
             temperatureInfo.Add(new DateTime(2010, 6, 1, 14, 0, 0), 87.46);
             temperatureInfo.Add(new DateTime(2010, 12, 1, 10, 0, 0), 36.81);
@@ -71,8 +71,13 @@ namespace ConsoleAppStrings2
             //       
             //       Temperature at  2:00 PM on  6/1/2010:  87.5°F
             //       Temperature at 10:00 AM on 12/1/2010:  36.8°F
+        }
 
+        public void CultureFormatting() {
+            string[] cultureNames = { "en-US", "fr-FR", "de-DE", "es-ES" };
 
+            DateTime dateToDisplay = new DateTime(2009, 9, 1, 18, 32, 0);
+            double value = 9164.32;
         }
 
 
