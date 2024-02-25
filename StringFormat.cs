@@ -66,7 +66,11 @@ namespace ConsoleAppStrings2
                                        item.Key, item.Value);
                 Console.WriteLine(output);
             }
-           
+            // The example displays output like the following:
+            //       Temperature Information:
+            //       
+            //       Temperature at  2:00 PM on  6/1/2010:  87.5°F
+            //       Temperature at 10:00 AM on 12/1/2010:  36.8°F
 
 
         }
