@@ -13,5 +13,16 @@ namespace ConsoleAppStrings2
         //Use String.Format if you need to insert the value of an object, variable, or expression into another string.
         //For example, you can insert the value of a Decimal value into a string to display it to the user as a single string:
 
+        public void FormatOne() {
+
+            Decimal pricePerOunce = 17.36m;
+            String s = String.Format("The current price is {0} per ounce.",
+                                     pricePerOunce);
+            Console.WriteLine(s);
+            // Result: The current price is 17.36 per ounce.
+            }
+
+      
+
     }
-}
+    }
