@@ -119,6 +119,14 @@ namespace ConsoleAppStrings2
 
         }
 
+        public static void ShowPopulationData(CityInfo city)
+        {
+            object[] args = { city.Name, city.Year, city.Population, city.Area };
+            String result = String.Format("{0} in {1}: Population {2:N0}, Area {3:N1} sq. feet",
+                                          args);
+            Console.WriteLine(result);
+        }
+
 
 
     }
