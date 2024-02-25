@@ -54,6 +54,17 @@ namespace ConsoleAppStrings2
             // Output similar to: 'It is now 4/10/2015 at 10:04 AM'
         }
 
+        public string Format2Args() {
+            Dictionary<DateTime, Double> temperatureInfo = new Dictionary<DateTime, Double>();
+            temperatureInfo.Add(new DateTime(2010, 6, 1, 14, 0, 0), 87.46);
+            temperatureInfo.Add(new DateTime(2010, 12, 1, 10, 0, 0), 36.81);
 
+            
+
+        }
+    
+    
+    
+    
     }
     }
