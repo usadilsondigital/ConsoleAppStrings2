@@ -147,8 +147,16 @@ namespace ConsoleAppStrings2
             {
                 TimeSpan interval = dateValue - birthdate;
                 // Get the approximate number of years, without accounting for leap years.
-              
 
+                int years = ((int)interval.TotalDays) / 365;
+                // See if adding the number of years exceeds dateValue.
+                string output;
+                if (birthdate.AddYears(years) <= dateValue)
+                {
+                    output = String.Format("You are now {0} years old.", years);
+                    Console.WriteLine(output);
+                }
+               
 
 
             }
