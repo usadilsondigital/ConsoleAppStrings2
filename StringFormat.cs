@@ -78,6 +78,16 @@ namespace ConsoleAppStrings2
 
             DateTime dateToDisplay = new DateTime(2009, 9, 1, 18, 32, 0);
             double value = 9164.32;
+            Console.WriteLine("Culture     Date                                Value\n");
+            foreach (string cultureName in cultureNames)
+            {
+                System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo(cultureName);
+                string output = String.Format(culture, "{0,-11} {1,-35:D} {2:N}",
+                                              culture.Name, dateToDisplay, value);
+                Console.WriteLine(output);
+            }
+
+
         }
 
 
