@@ -106,6 +106,9 @@ namespace ConsoleAppStrings2
                                date1, hiTime, hiTemp, loTime, loTemp);
             Console.WriteLine(result1);
             Console.WriteLine();
+            string result2 = String.Format("Temperature on {0:d}:\n{1,11}: {2} degrees (hi)\n{3,11}: {4} degrees (lo)",
+                               new object[] { date1, hiTime, hiTemp, loTime, loTemp });
+            Console.WriteLine(result2);
 
         }
 
