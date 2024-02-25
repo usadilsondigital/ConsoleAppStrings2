@@ -127,7 +127,15 @@ namespace ConsoleAppStrings2
             Console.WriteLine(result);
         }
 
+        public void ShowingCityInfo() {
+            CityInfo nyc2010 = new CityInfo("New York", 8175133, 302.64m, 2010);
+            ShowPopulationData(nyc2010);
+            CityInfo sea2010 = new CityInfo("Seattle", 608660, 83.94m, 2010);
+            ShowPopulationData(sea2010);
+
+        }
 
 
-    }
+
+}
     }
