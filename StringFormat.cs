@@ -156,7 +156,11 @@ namespace ConsoleAppStrings2
                     output = String.Format("You are now {0} years old.", years);
                     Console.WriteLine(output);
                 }
-               
+                else
+                {
+                    output = String.Format("You are now {0} years old.", years - 1);
+                    Console.WriteLine(output);
+                }
 
 
             }
