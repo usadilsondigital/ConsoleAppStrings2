@@ -143,6 +143,16 @@ namespace ConsoleAppStrings2
                      new DateTime(2000, 10, 16),
                      new DateTime(2003, 7, 27),
                      new DateTime(2007, 5, 27) };
+            foreach (DateTime dateValue in dates)
+            {
+                TimeSpan interval = dateValue - birthdate;
+                // Get the approximate number of years, without accounting for leap years.
+              
+
+
+
+            }
+
         }
 
 
