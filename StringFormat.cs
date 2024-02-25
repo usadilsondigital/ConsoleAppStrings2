@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace ConsoleAppStrings2
 {
@@ -133,6 +134,15 @@ namespace ConsoleAppStrings2
             CityInfo sea2010 = new CityInfo("Seattle", 608660, 83.94m, 2010);
             ShowPopulationData(sea2010);
 
+        }
+
+        public void FormattingSingleArgument() {
+            DateTime birthdate = new DateTime(1993, 7, 28);
+            DateTime[] dates = { new DateTime(1993, 8, 16),
+                     new DateTime(1994, 7, 28),
+                     new DateTime(2000, 10, 16),
+                     new DateTime(2003, 7, 27),
+                     new DateTime(2007, 5, 27) };
         }
 
 
