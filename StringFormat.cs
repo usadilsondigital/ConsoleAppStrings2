@@ -96,6 +96,13 @@ namespace ConsoleAppStrings2
             //    es-ES       martes, 01 de septiembre de 2009    9.164,32
         }
 
+        public void FormatMoreThreeArgs() {
+            DateTime date1 = new DateTime(2009, 7, 1);
+            TimeSpan hiTime = new TimeSpan(14, 17, 32);
+            decimal hiTemp = 62.1m;
+            TimeSpan loTime = new TimeSpan(3, 16, 10);
+            decimal loTemp = 54.8m;
+        }
 
 
 
