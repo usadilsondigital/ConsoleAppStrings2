@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+    //Returns the TypeCode for the String class.
     public class StringGetTypeCode
     {
 
