@@ -19,8 +19,14 @@ namespace ConsoleAppStrings2
             foreach (var ch in phrase)
             {
                 Console.Write(Char.IsControl(ch) ? $"{ch}" : $"0x{(ushort)ch:X4}");
+                if (Char.IsLetterOrDigit(ch))
+                    alphanumeric++;
+                else if (Char.IsControl(ch))
+                    controlChars++;
+                else if (Char.IsPunctuation(ch))
+                    punctuation++;
+                CharCount++;
 
-                
             }
 
             
