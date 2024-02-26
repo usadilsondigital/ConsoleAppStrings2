@@ -10,6 +10,15 @@ namespace ConsoleAppStrings2
     //Retrieves an object that can iterate through the individual characters in this string.
     public class StringGetEnumerator
     {
+
+        public  void TestCase()
+        {
+            EnumerateAndDisplay("Test Case");
+            EnumerateAndDisplay("This is a sentence.");
+            EnumerateAndDisplay("Has\ttwo\ttabs");
+            EnumerateAndDisplay("Two\nnew\nlines");
+        }
+
         public void EnumerateAndDisplay(String phrase)
         {
             Console.WriteLine("The characters in the string \"{0}\" are:",phrase);
