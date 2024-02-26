@@ -16,8 +16,19 @@ namespace ConsoleAppStrings2
             int alphanumeric = 0;
             int punctuation = 0;
 
-           
+            foreach (var ch in phrase)
+            {
+                Console.Write(Char.IsControl(ch) ? $"{ch}" : $"0x{(ushort)ch:X4}");
+
+                
+            }
+
+            
+
         }
+
+
+
     }
 
 
