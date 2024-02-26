@@ -162,7 +162,12 @@ namespace ConsoleAppStrings2
                     Console.WriteLine(output);
                 }
 
-
+                // The example displays the following output:
+                //       You are now 0 years old.
+                //       You are now 1 years old.
+                //       You are now 7 years old.
+                //       You are now 9 years old.
+                //       You are now 13 years old.
             }
 
         }
