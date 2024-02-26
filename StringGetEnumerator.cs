@@ -28,8 +28,11 @@ namespace ConsoleAppStrings2
                 CharCount++;
 
             }
+            Console.WriteLine("\n   Total characters:        {0,3}", CharCount);
+            Console.WriteLine("   Alphanumeric characters: {0,3}", alphanumeric);
+            Console.WriteLine("   Punctuation characters:  {0,3}", punctuation);
+            Console.WriteLine("   Control Characters:      {0,3}\n", controlChars);
 
-            
 
         }
 
