@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+
+    //Retrieves an object that can iterate through the individual characters in this string.
     public class StringGetEnumerator
     {
         public void EnumerateAndDisplay(String phrase)
