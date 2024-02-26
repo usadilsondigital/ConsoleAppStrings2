@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+    //Returns the hash code for this string.
     public class StringGetHashCode
     {
         public void DisplayHashCode(String Operand)
