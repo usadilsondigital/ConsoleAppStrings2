@@ -16,6 +16,9 @@ namespace ConsoleAppStrings2
             int at;
             int end;
             int count;
+            end = str.Length;
+            start = end / 2;
+            Console.WriteLine();
         }
     }
 }
