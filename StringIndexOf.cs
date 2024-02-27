@@ -103,7 +103,19 @@ namespace ConsoleAppStrings2
                 Console.Write("{0} ", at);
                 start = at + 1;
             }
+            Console.WriteLine();
 
+            /*
+            This example produces the following results:
+
+            All occurrences of 't' from position 0 to 68.
+            0----+----1----+----2----+----3----+----4----+----5----+----6----+---
+            012345678901234567890123456789012345678901234567890123456789012345678
+            Now is the time for all good men to come to the aid of their country.
+
+            The letter 't' occurs at position(s): 7 11 33 41 44 55 65
+
+            */
 
         }
 
