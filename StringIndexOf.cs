@@ -93,6 +93,18 @@ namespace ConsoleAppStrings2
             Console.WriteLine("All occurrences of 't' from position 0 to {0}.", str.Length - 1);
             Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
             Console.Write("The letter 't' occurs at position(s): ");
+
+            at = 0;
+            start = 0;
+            while ((start < str.Length) && (at > -1))
+            {
+                at = str.IndexOf('t', start);
+                if (at == -1) break;
+                Console.Write("{0} ", at);
+                start = at + 1;
+            }
+
+
         }
 
     }
