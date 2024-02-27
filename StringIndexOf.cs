@@ -67,5 +67,11 @@ namespace ConsoleAppStrings2
         }
 
 
+        public void TestCulture() {
+            string searchString = "\u00ADm";
+            string s1 = "ani\u00ADmal";
+            string s2 = "animal";
+        }
+
     }
 }
