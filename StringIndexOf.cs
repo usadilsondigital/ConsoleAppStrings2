@@ -47,5 +47,15 @@ namespace ConsoleAppStrings2
                 */
 
         }
+
+
+        public  void TestCase2()
+        {
+            string searchString = "\u00ADm";
+            string s1 = "ani\u00ADmal";
+            string s2 = "animal";
+        }
+
+
     }
 }
