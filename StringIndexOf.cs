@@ -58,7 +58,9 @@ namespace ConsoleAppStrings2
             Console.WriteLine(s1.IndexOf(searchString, 2, 4));
             Console.WriteLine(s2.IndexOf(searchString, 2, 4));
 
-           
+            // The example displays the following output:
+            //       4
+            //       3
         }
 
 
