@@ -33,6 +33,11 @@ namespace ConsoleAppStrings2
                 Console.Write("{0} ", at);
                 start = at + 1;
             }
+            Console.WriteLine();
+
+                /*
+                This example produces the following results:
+
         }
     }
 }
