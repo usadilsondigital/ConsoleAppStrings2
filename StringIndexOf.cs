@@ -29,7 +29,9 @@ namespace ConsoleAppStrings2
                 // start+count must be a position within -str-.
                 count = end - start;
                 at = str.IndexOf("he", start, count);
-              
+                if (at == -1) break;
+                Console.Write("{0} ", at);
+                start = at + 1;
             }
         }
     }
