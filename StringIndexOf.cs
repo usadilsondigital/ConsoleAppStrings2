@@ -25,6 +25,12 @@ namespace ConsoleAppStrings2
             count = 0;
             at = 0;
             while ((start <= end) && (at > -1))
+            {
+                // start+count must be a position within -str-.
+                count = end - start;
+                at = str.IndexOf("he", start, count);
+              
+            }
         }
     }
 }
