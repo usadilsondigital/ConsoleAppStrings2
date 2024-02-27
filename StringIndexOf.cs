@@ -89,6 +89,10 @@ namespace ConsoleAppStrings2
             string str = "Now is the time for all good men to come to the aid of their country.";
             int start;
             int at;
+            Console.WriteLine();
+            Console.WriteLine("All occurrences of 't' from position 0 to {0}.", str.Length - 1);
+            Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
+            Console.Write("The letter 't' occurs at position(s): ");
         }
 
     }
