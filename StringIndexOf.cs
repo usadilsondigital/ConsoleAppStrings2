@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppStrings2
 {
+
+    //Reports the zero-based index of the first occurrence of a specified Unicode character or string within this instance.
+    //The method returns -1 if the character or string is not found in this instance.
     public class StringIndexOf
     {
         public void TestCase() {
