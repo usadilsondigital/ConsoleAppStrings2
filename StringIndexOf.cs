@@ -35,8 +35,16 @@ namespace ConsoleAppStrings2
             }
             Console.WriteLine();
 
-                /*
-                This example produces the following results:
+            /*
+            This example produces the following results:
+            All occurrences of 'he' from position 34 to 68.
+                0----+----1----+----2----+----3----+----4----+----5----+----6----+---
+                012345678901234567890123456789012345678901234567890123456789012345678
+                Now is the time for all good men to come to the aid of their country.
+
+                The string 'he' occurs at position(s): 45 56
+
+                */
 
         }
     }
