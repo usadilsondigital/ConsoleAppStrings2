@@ -10,5 +10,11 @@ namespace ConsoleAppStrings2
     //The method returns -1 if the characters in the array are not found in this instance.
     public class StringIndexOfAny
     {
+        public  void TestCase()
+        {
+            char[] chars = { 'a', 'e', 'i', 'o', 'u', 'y','A', 'E', 'I', 'O', 'U', 'Y' };
+            String s = "The long and winding road...";
+           
+        }
     }
 }
