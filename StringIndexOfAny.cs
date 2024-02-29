@@ -81,9 +81,15 @@ A character in 'is' occurs at position: 49
             Console.WriteLine("The first character occurrence from position {0} for {1} characters.", start, count);
             Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
             Console.Write("A character in '{0}' occurs at position: ", target);
-
-
+            at = str.IndexOfAny(anyOf, start, count);
+            if (at > -1)
+                Console.Write(at);
+            else
+                Console.Write("(not found)");
+            Console.WriteLine();
         }
+
+    }
 
 
 
