@@ -75,6 +75,14 @@ A character in 'is' occurs at position: 49
             string target = "aid";
             char[] anyOf = target.ToCharArray();
 
+            start = (str.Length - 1) / 3;
+            count = (str.Length - 1) / 4;
+            Console.WriteLine();
+            Console.WriteLine("The first character occurrence from position {0} for {1} characters.", start, count);
+            Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
+            Console.Write("A character in '{0}' occurs at position: ", target);
+
+
         }
 
 
