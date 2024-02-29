@@ -30,6 +30,10 @@ namespace ConsoleAppStrings2
             int start;
             int at;
             string target = "is";
+            char[] anyOf = target.ToCharArray();
+
+            start = str.Length / 2;
+            Console.WriteLine();
         }
 
 
