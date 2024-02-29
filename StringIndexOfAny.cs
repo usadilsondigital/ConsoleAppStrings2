@@ -40,6 +40,11 @@ namespace ConsoleAppStrings2
             Console.Write("A character in '{0}' occurs at position: ", target);
 
             at = str.IndexOfAny(anyOf, start);
+            if (at > -1)
+                Console.Write(at);
+            else
+                Console.Write("(not found)");
+            Console.WriteLine();
         }
 
 
