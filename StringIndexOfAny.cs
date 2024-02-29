@@ -34,6 +34,12 @@ namespace ConsoleAppStrings2
 
             start = str.Length / 2;
             Console.WriteLine();
+            Console.WriteLine("The first character occurrence from position {0} to {1}.",
+                           start, str.Length - 1);
+            Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
+            Console.Write("A character in '{0}' occurs at position: ", target);
+
+            at = str.IndexOfAny(anyOf, start);
         }
 
 
