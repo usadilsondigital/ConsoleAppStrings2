@@ -48,19 +48,31 @@ namespace ConsoleAppStrings2
                 Console.Write("(not found)");
             Console.WriteLine();
         }
-                    /*
+        /*
 
-            The first character occurrence from position 33 to 66.
-            0----+----1----+----2----+----3----+----4----+----5----+----6----+-
-            0123456789012345678901234567890123456789012345678901234567890123456
-            Now is the time for all good men to come to the aid of their party.
+The first character occurrence from position 33 to 66.
+0----+----1----+----2----+----3----+----4----+----5----+----6----+-
+0123456789012345678901234567890123456789012345678901234567890123456
+Now is the time for all good men to come to the aid of their party.
 
-            A character in 'is' occurs at position: 49
+A character in 'is' occurs at position: 49
 
-            */
-
-
+*/
 
 
-    }
+
+        //The following example finds the index of the occurrence of
+        //any character of the string "aid" within a substring of another string.
+        //Sample for String.IndexOfAny(Char[], Int32, Int32)
+        public static void IndexOfAnySubstring()
+        { 
+        
+        }
+
+
+
+
+
+
+        }
 }
