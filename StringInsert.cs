@@ -32,6 +32,12 @@ namespace ConsoleAppStrings2
             Console.Write("Enter an adjective (or group of adjectives) " +
                       "to describe the {0}: ==> ", animal2);
             string adj2 = Console.ReadLine();
+
+            adj1 = adj1.Trim() + " ";
+            adj2 = adj2.Trim() + " ";
+
+            strTarget = strTarget.Insert(strTarget.IndexOf(animal1), adj1);
+            strTarget = strTarget.Insert(strTarget.IndexOf(animal2), adj2);
         }
 
 
