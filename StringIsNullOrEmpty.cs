@@ -20,5 +20,12 @@ namespace ConsoleAppStrings2
 
             
         }
+        String Test(string s)
+        {
+            if (String.IsNullOrEmpty(s))
+                return "is null or empty";
+            else
+                return String.Format("(\"{0}\") is neither null nor empty", s);
+        }
     }
 }
