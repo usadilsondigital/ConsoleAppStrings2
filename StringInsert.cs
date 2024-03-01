@@ -29,6 +29,9 @@ namespace ConsoleAppStrings2
             Console.Write("Enter an adjective (or group of adjectives) " +
                           "to describe the {0}: ==> ", animal1);
             string adj1 = Console.ReadLine();
+            Console.Write("Enter an adjective (or group of adjectives) " +
+                      "to describe the {0}: ==> ", animal2);
+            string adj2 = Console.ReadLine();
         }
 
 
