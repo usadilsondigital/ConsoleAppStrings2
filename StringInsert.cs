@@ -38,6 +38,8 @@ namespace ConsoleAppStrings2
 
             strTarget = strTarget.Insert(strTarget.IndexOf(animal1), adj1);
             strTarget = strTarget.Insert(strTarget.IndexOf(animal2), adj2);
+            Console.WriteLine("{0}The final string is:{0}{1}",Environment.NewLine, strTarget);'
+               
         }
 
 
