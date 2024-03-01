@@ -19,6 +19,14 @@ namespace ConsoleAppStrings2
             //     The original string: 'aaabbb'
             //     The modified string: 'aaa bbb'
         }
+        public void InsertAdjective()
+        {
+            string animal1 = "fox";
+            string animal2 = "dog";
 
-    }
+            string strTarget = String.Format("The {0} jumps over the {1}.",animal1, animal2);
+        }
+
+
+        }
 }
