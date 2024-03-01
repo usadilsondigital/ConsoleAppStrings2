@@ -25,6 +25,10 @@ namespace ConsoleAppStrings2
             string animal2 = "dog";
 
             string strTarget = String.Format("The {0} jumps over the {1}.",animal1, animal2);
+            Console.WriteLine("The original string is:{0}{1}{0}",Environment.NewLine, strTarget);
+            Console.Write("Enter an adjective (or group of adjectives) " +
+                          "to describe the {0}: ==> ", animal1);
+            string adj1 = Console.ReadLine();
         }
 
 
