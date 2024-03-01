@@ -26,7 +26,12 @@ namespace ConsoleAppStrings2
             for (int ctr = values.GetLowerBound(0); ctr <= (int)Math.Ceiling(Math.Sqrt(values.GetUpperBound(0))); ctr++)
             {
 
-               
+                if ((int)values.GetValue(ctr) == 1) continue;
+
+                for (int multiplier = ctr; multiplier <= maxPrime / 2; multiplier++)
+                    if (ctr * multiplier <= maxPrime)
+                        values.SetValue(1, ctr * multiplier);
+
             }
         }
 
