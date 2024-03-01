@@ -33,6 +33,11 @@ namespace ConsoleAppStrings2
                         values.SetValue(1, ctr * multiplier);
 
             }
+            List<int> primes = new List<int>();
+            for (int ctr = values.GetLowerBound(0); ctr <= values.GetUpperBound(0); ctr++)
+                if ((int)values.GetValue(ctr) == 0)
+                    primes.Add(ctr);
+
         }
 
 
