@@ -15,6 +15,9 @@ namespace ConsoleAppStrings2
             Console.WriteLine("The original string: '{0}'", original);
             String modified = original.Insert(3, " ");
             Console.WriteLine("The modified string: '{0}'", modified);
+            // The example displays the following output:
+            //     The original string: 'aaabbb'
+            //     The modified string: 'aaa bbb'
         }
 
     }
