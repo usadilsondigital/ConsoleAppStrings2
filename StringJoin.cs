@@ -37,7 +37,7 @@ namespace ConsoleAppStrings2
             for (int ctr = values.GetLowerBound(0); ctr <= values.GetUpperBound(0); ctr++)
                 if ((int)values.GetValue(ctr) == 0)
                     primes.Add(ctr);
-
+            return primes;
         }
 
 
