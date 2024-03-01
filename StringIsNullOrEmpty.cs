@@ -27,5 +27,16 @@ namespace ConsoleAppStrings2
             else
                 return String.Format("(\"{0}\") is neither null nor empty", s);
         }
+
+        public void IsNullOrWhiteSpace()
+        {
+            string[] values = { null, String.Empty, "ABCDE",
+                          new String(' ', 20), "  \t   ",
+                          new String('\u2000', 10) };
+            foreach (string value in values)
+                Console.WriteLine(String.IsNullOrWhiteSpace(value));
+        }
+
+
     }
 }
