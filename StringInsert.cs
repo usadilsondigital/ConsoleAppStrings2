@@ -38,10 +38,19 @@ namespace ConsoleAppStrings2
 
             strTarget = strTarget.Insert(strTarget.IndexOf(animal1), adj1);
             strTarget = strTarget.Insert(strTarget.IndexOf(animal2), adj2);
-            Console.WriteLine("{0}The final string is:{0}{1}",Environment.NewLine, strTarget);'
-               
+            Console.WriteLine("{0}The final string is:{0}{1}",Environment.NewLine, strTarget);
+            // Output from the example might appear as follows:
+            //       The original string is:
+            //       The fox jumps over the dog.
+            //
+            //       Enter an adjective (or group of adjectives) to describe the fox: ==> bold
+            //       Enter an adjective (or group of adjectives) to describe the dog: ==> lazy
+            //
+            //       The final string is:
+            //       The bold fox jumps over the lazy dog.
+
         }
 
 
-        }
+    }
 }
