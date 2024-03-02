@@ -63,7 +63,13 @@ namespace ConsoleAppStrings2
         }
 
 
-
+        public  void MakeLineTestCase()
+        {
+            Console.WriteLine(MakeLine(0, 5, ", "));
+            Console.WriteLine(MakeLine(1, 6, "  "));
+            Console.WriteLine(MakeLine(9, 9, ": "));
+            Console.WriteLine(MakeLine(4, 7, "< "));
+        }
         private string MakeLine(int initVal, int multVal, string sep)
         {
             string[] sArr = new string[10];
