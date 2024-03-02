@@ -113,6 +113,8 @@ namespace ConsoleAppStrings2
 
             string output = String.Join(" ", animals.Where(animal => (animal.Order == "Rodent")));
             Console.WriteLine(output);
+            // The example displays the following output:
+            //      Squirrel Capybara
         }
 
 
