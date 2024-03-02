@@ -58,6 +58,8 @@ namespace ConsoleAppStrings2
             for (int ctr = 0; ctr <= 25; ctr++)
                 alphabet.Add(((char)(charValue + ctr)).ToString());
             return alphabet;
+            // The example displays the following output:
+            //      M N O P Q R S T U V W X Y Z
         }
 
     }
