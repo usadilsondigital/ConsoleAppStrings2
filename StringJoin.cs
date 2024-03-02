@@ -67,8 +67,11 @@ namespace ConsoleAppStrings2
         private string MakeLine(int initVal, int multVal, string sep)
         {
             string[] sArr = new string[10];
+            for (int i = initVal; i < initVal + 10; i++)
+                sArr[i - initVal] = String.Format("{0,-3}", i * multVal);
 
-            
+            return String.Join(sep, sArr);
+
         }
 
 
