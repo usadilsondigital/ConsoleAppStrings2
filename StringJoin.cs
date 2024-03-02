@@ -45,5 +45,11 @@ namespace ConsoleAppStrings2
 
 
 
+        public  void JoinAlphabet()
+        {
+            string output = String.Join(" ", GetAlphabet(true).Where(letter => letter.CompareTo("M") >= 0));
+            Console.WriteLine(output);
+        }
+
     }
 }
