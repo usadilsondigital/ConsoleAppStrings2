@@ -109,7 +109,10 @@ namespace ConsoleAppStrings2
 
             animals.Add(new Animal("Squirrel", "Rodent"));
             animals.Add(new Animal("Gray Wolf", "Carnivora"));
-            animals.Add(new Animal("Capybara", "Rodent"));  
+            animals.Add(new Animal("Capybara", "Rodent"));
+
+            string output = String.Join(" ", animals.Where(animal => (animal.Order == "Rodent")));
+            Console.WriteLine(output);
         }
 
 
