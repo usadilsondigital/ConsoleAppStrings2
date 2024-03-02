@@ -87,5 +87,12 @@ namespace ConsoleAppStrings2
 
 
 
+        //The following example concatenates two elements from an array of names of fruit.
+        public void ConcatenateFruit() { 
+        
+        }
+
+
+
     }
 }
