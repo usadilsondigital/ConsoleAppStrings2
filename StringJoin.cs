@@ -79,6 +79,11 @@ namespace ConsoleAppStrings2
             return String.Join(sep, sArr);
 
         }
+        // The example displays the following output:
+        //       0  , 5  , 10 , 15 , 20 , 25 , 30 , 35 , 40 , 45
+        //       6    12   18   24   30   36   42   48   54   60
+        //       81 : 90 : 99 : 108: 117: 126: 135: 144: 153: 162
+        //       28 < 35 < 42 < 49 < 56 < 63 < 70 < 77 < 84 < 91
 
 
 
