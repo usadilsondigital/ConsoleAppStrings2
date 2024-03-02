@@ -107,6 +107,9 @@ namespace ConsoleAppStrings2
         public void JoinAnimalExample() {
             List<Animal> animals = new List<Animal>();
 
+            animals.Add(new Animal("Squirrel", "Rodent"));
+            animals.Add(new Animal("Gray Wolf", "Carnivora"));
+            animals.Add(new Animal("Capybara", "Rodent"));  
         }
 
 
