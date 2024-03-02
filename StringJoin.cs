@@ -50,6 +50,13 @@ namespace ConsoleAppStrings2
             string output = String.Join(" ", GetAlphabet(true).Where(letter => letter.CompareTo("M") >= 0));
             Console.WriteLine(output);
         }
+        
+          private List<string> GetAlphabet(bool upper)
+        {
+            List<string> alphabet = new List<string>();
+            int charValue = upper ? 65 : 97;
+            
+        }
 
     }
 }
