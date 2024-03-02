@@ -104,6 +104,11 @@ namespace ConsoleAppStrings2
         }
 
 
+        public void JoinAnimalExample() {
+            List<Animal> animals = new List<Animal>();
+
+        }
+
 
     }
 }
