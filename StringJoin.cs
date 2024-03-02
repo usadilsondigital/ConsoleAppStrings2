@@ -62,5 +62,16 @@ namespace ConsoleAppStrings2
             //      M N O P Q R S T U V W X Y Z
         }
 
+
+
+        private string MakeLine(int initVal, int multVal, string sep)
+        {
+            string[] sArr = new string[10];
+
+            
+        }
+
+
+
     }
 }
