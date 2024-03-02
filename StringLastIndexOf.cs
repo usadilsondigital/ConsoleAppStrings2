@@ -10,5 +10,12 @@ namespace ConsoleAppStrings2
     //within this instance. The method returns -1 if the character or string is not found in this instance
     public class StringLastIndexOf
     {
+
+        public  void TestCase()
+        {
+            string intro = "Find the last occurrence of a character using different " +
+                           "values of StringComparison.";
+            string resultFmt = "Comparison: {0,-28} Location: {1,3}";
+        }
     }
 }
