@@ -84,8 +84,44 @@ namespace ConsoleAppStrings2
                 loc = cat.LastIndexOf(CapitalAWithRing, sc);
                 Console.WriteLine(resultFmt, sc, loc);
             }
+
+            /*
+            Note: This code example was executed on a console whose user interface 
+            culture is "en-US" (English-United States).
+
+            This code example produces the following results:
+
+            Find the last occurrence of a character using different values of StringComparison.
+            The current culture is "en-US" - English (United States).
+            Search for the string "Å" in the string "A Cheshire ca°t"
+
+            Part 1: Start index and count are specified.
+            Comparison: CurrentCulture               Location:  -1
+            Comparison: CurrentCultureIgnoreCase     Location:  12
+            Comparison: InvariantCulture             Location:  -1
+            Comparison: InvariantCultureIgnoreCase   Location:  12
+            Comparison: Ordinal                      Location:  -1
+            Comparison: OrdinalIgnoreCase            Location:  -1
+
+            Part 2: Start index is specified.
+            Comparison: CurrentCulture               Location:  -1
+            Comparison: CurrentCultureIgnoreCase     Location:  12
+            Comparison: InvariantCulture             Location:  -1
+            Comparison: InvariantCultureIgnoreCase   Location:  12
+            Comparison: Ordinal                      Location:  -1
+            Comparison: OrdinalIgnoreCase            Location:  -1
+
+            Part 3: Neither start index nor count is specified.
+            Comparison: CurrentCulture               Location:  -1
+            Comparison: CurrentCultureIgnoreCase     Location:  12
+            Comparison: InvariantCulture             Location:  -1
+            Comparison: InvariantCultureIgnoreCase   Location:  12
+            Comparison: Ordinal                      Location:  -1
+            Comparison: OrdinalIgnoreCase            Location:  -1
+
+            */
         }
 
-    
+
     }
 }
