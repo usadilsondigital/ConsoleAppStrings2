@@ -130,6 +130,12 @@ namespace ConsoleAppStrings2
             string s2 = "animal";
 
             int position;
+            position = s1.LastIndexOf('m');
+            if (position >= 1)
+            {
+                Console.WriteLine(s1.LastIndexOf(searchString, position, position, StringComparison.CurrentCulture));
+                Console.WriteLine(s1.LastIndexOf(searchString, position, position, StringComparison.Ordinal));
+            }
         }
 
 
