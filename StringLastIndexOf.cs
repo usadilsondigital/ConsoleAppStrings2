@@ -16,6 +16,11 @@ namespace ConsoleAppStrings2
             string intro = "Find the last occurrence of a character using different " +
                            "values of StringComparison.";
             string resultFmt = "Comparison: {0,-28} Location: {1,3}";
+
+            // Define a string to search for.
+            // U+00c5 = LATIN CAPITAL LETTER A WITH RING ABOVE
+            string CapitalAWithRing = "\u00c5";
+
         }
     }
 }
