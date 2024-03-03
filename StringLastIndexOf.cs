@@ -70,6 +70,12 @@ namespace ConsoleAppStrings2
             }
             // Search using different values of StringComparsion. Specify the 
             // start index. 
+            Console.WriteLine("\nPart 2: Start index is specified.");
+            foreach (StringComparison sc in scValues)
+            {
+                loc = cat.LastIndexOf(CapitalAWithRing, cat.Length - 1, sc);
+                Console.WriteLine(resultFmt, sc, loc);
+            }
 
 
         }
