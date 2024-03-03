@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,6 +40,14 @@ namespace ConsoleAppStrings2
             // Clear the screen and display an introduction.
             Console.Clear();
             Console.WriteLine(intro);
+
+            // Display the current culture because culture affects the result. For example, 
+            // try this code example with the "sv-SE" (Swedish-Sweden) culture.
+
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            Console.WriteLine("The current culture is \"{0}\" - {1}.",
+                               Thread.CurrentThread.CurrentCulture.Name,
+                               Thread.CurrentThread.CurrentCulture.DisplayName);
 
 
         }
