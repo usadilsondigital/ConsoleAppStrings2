@@ -68,6 +68,8 @@ namespace ConsoleAppStrings2
                 loc = cat.LastIndexOf(CapitalAWithRing, cat.Length - 1, cat.Length, sc);
                 Console.WriteLine(resultFmt, sc, loc);
             }
+            // Search using different values of StringComparsion. Specify the 
+            // start index. 
 
 
         }
