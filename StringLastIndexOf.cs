@@ -55,6 +55,13 @@ namespace ConsoleAppStrings2
                                CapitalAWithRing, cat);
             Console.WriteLine();
 
+
+            // Note that in each of the following searches, we look for 
+            // LATIN CAPITAL LETTER A WITH RING ABOVE in a string that contains 
+            // LATIN SMALL LETTER A WITH RING ABOVE. A result value of -1 indicates 
+            // the string was not found.
+            // Search using different values of StringComparsion. Specify the start 
+            // index and count. 
             Console.WriteLine("Part 1: Start index and count are specified.");
             foreach (StringComparison sc in scValues)
             {
