@@ -36,6 +36,11 @@ namespace ConsoleAppStrings2
         StringComparison.Ordinal,
         StringComparison.OrdinalIgnoreCase };
 
+            // Clear the screen and display an introduction.
+            Console.Clear();
+            Console.WriteLine(intro);
+
+
         }
     }
 }
