@@ -78,6 +78,14 @@ namespace ConsoleAppStrings2
             }
 
 
+            Console.WriteLine("\nPart 3: Neither start index nor count is specified.");
+            foreach (StringComparison sc in scValues)
+            {
+                loc = cat.LastIndexOf(CapitalAWithRing, sc);
+                Console.WriteLine(resultFmt, sc, loc);
+            }
         }
+
+    
     }
 }
