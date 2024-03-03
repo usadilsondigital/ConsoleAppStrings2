@@ -12,7 +12,7 @@ namespace ConsoleAppStrings2
     public class StringLastIndexOf
     {
 
-        public  void TestCase()
+        public void TestCase()
         {
             string intro = "Find the last occurrence of a character using different " +
                            "values of StringComparison.";
@@ -120,6 +120,16 @@ namespace ConsoleAppStrings2
             Comparison: OrdinalIgnoreCase            Location:  -1
 
             */
+        }
+
+
+        public void TestCase2() {
+            string searchString = "\u00ADm";
+
+            string s1 = "ani\u00ADmal";
+            string s2 = "animal";
+
+            int position;
         }
 
 
