@@ -167,6 +167,19 @@ namespace ConsoleAppStrings2
             Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
             Console.Write("The string 'he' occurs at position(s): ");
 
+            count = 0;
+            at = 0;
+            while ((start > -1) && (at > -1))
+            {
+                count = start - end; //Count must be within the substring.
+                at = str.LastIndexOf("he", start, count);
+                if (at > -1)
+                {
+                    Console.Write("{0} ", at);
+                    start = at - 1;
+                }
+            }
+            Console.Write("{0}{0}{0}", Environment.NewLine);
         }
 
 
