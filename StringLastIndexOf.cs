@@ -50,6 +50,12 @@ namespace ConsoleAppStrings2
                                Thread.CurrentThread.CurrentCulture.DisplayName);
 
 
+            // Display the string to search for and the string to search.
+            Console.WriteLine("Search for the string \"{0}\" in the string \"{1}\"",
+                               CapitalAWithRing, cat);
+            Console.WriteLine();
+
+
         }
     }
 }
