@@ -77,7 +77,7 @@ namespace ConsoleAppStrings2
                 Console.WriteLine(resultFmt, sc, loc);
             }
 
-
+            // Search using different values of StringComparsion. 
             Console.WriteLine("\nPart 3: Neither start index nor count is specified.");
             foreach (StringComparison sc in scValues)
             {
