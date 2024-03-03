@@ -142,6 +142,12 @@ namespace ConsoleAppStrings2
                 Console.WriteLine(s2.LastIndexOf(searchString, position, position, StringComparison.CurrentCulture));
                 Console.WriteLine(s2.LastIndexOf(searchString, position, position, StringComparison.Ordinal));
             }
+            // The example displays the following output:
+            //
+            // 4
+            // 3
+            // 3
+            // -1
         }
 
 
