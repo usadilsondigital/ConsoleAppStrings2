@@ -160,6 +160,13 @@ namespace ConsoleAppStrings2
             int at;
             int count;
             int end;
+
+            start = str.Length - 1;
+            end = start / 2 - 1;
+            Console.WriteLine("All occurrences of 'he' from position {0} to {1}.", start, end);
+            Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
+            Console.Write("The string 'he' occurs at position(s): ");
+
         }
 
 
