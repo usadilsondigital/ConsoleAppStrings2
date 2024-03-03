@@ -55,6 +55,13 @@ namespace ConsoleAppStrings2
                                CapitalAWithRing, cat);
             Console.WriteLine();
 
+            Console.WriteLine("Part 1: Start index and count are specified.");
+            foreach (StringComparison sc in scValues)
+            {
+                loc = cat.LastIndexOf(CapitalAWithRing, cat.Length - 1, cat.Length, sc);
+                Console.WriteLine(resultFmt, sc, loc);
+            }
+
 
         }
     }
