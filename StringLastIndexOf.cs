@@ -22,6 +22,10 @@ namespace ConsoleAppStrings2
             string CapitalAWithRing = "\u00c5";
 
 
+            // Define a string to search. 
+            // The result of combining the characters LATIN SMALL LETTER A and COMBINING 
+            // RING ABOVE (U+0061, U+030a) is linguistically equivalent to the character 
+            // LATIN SMALL LETTER A WITH RING ABOVE (U+00e5).
             string cat = "A Cheshire c" + "\u0061\u030a" + "t";
             int loc = 0;
             StringComparison[] scValues = {
