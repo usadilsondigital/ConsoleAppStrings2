@@ -21,6 +21,17 @@ namespace ConsoleAppStrings2
             // U+00c5 = LATIN CAPITAL LETTER A WITH RING ABOVE
             string CapitalAWithRing = "\u00c5";
 
+
+            string cat = "A Cheshire c" + "\u0061\u030a" + "t";
+            int loc = 0;
+            StringComparison[] scValues = {
+        StringComparison.CurrentCulture,
+        StringComparison.CurrentCultureIgnoreCase,
+        StringComparison.InvariantCulture,
+        StringComparison.InvariantCultureIgnoreCase,
+        StringComparison.Ordinal,
+        StringComparison.OrdinalIgnoreCase };
+
         }
     }
 }
