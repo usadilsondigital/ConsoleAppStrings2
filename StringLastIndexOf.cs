@@ -136,6 +136,12 @@ namespace ConsoleAppStrings2
                 Console.WriteLine(s1.LastIndexOf(searchString, position, position, StringComparison.CurrentCulture));
                 Console.WriteLine(s1.LastIndexOf(searchString, position, position, StringComparison.Ordinal));
             }
+            position = s2.LastIndexOf('m');
+            if (position >= 1)
+            {
+                Console.WriteLine(s2.LastIndexOf(searchString, position, position, StringComparison.CurrentCulture));
+                Console.WriteLine(s2.LastIndexOf(searchString, position, position, StringComparison.Ordinal));
+            }
         }
 
 
