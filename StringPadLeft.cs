@@ -15,5 +15,14 @@ namespace ConsoleAppStrings2
             Console.WriteLine(str.PadLeft(15));  // Displays "   BBQ and Slaw".
             Console.WriteLine(str.PadLeft(5));   // Displays "BBQ and Slaw".
         }
+
+        public  void TestCase2()
+        {
+            string str = "forty-two";
+            char pad = '.';
+
+            Console.WriteLine(str.PadLeft(15, pad));
+            Console.WriteLine(str.PadLeft(2, pad));
+        }
     }
 }
