@@ -20,6 +20,10 @@ namespace ConsoleAppStrings2
             int at;
             string target = "is";
             char[] anyOf = target.ToCharArray();
+            start = str.Length - 1;
+            Console.WriteLine("The last character occurrence  from position {0} to 0.", start);
+            Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
+            Console.Write("A character in '{0}' occurs at position: ", target);
         }
     }
 }
