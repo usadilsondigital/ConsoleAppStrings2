@@ -31,7 +31,8 @@ namespace ConsoleAppStrings2
             else
                 Console.Write("(not found)");
             Console.Write("{0}{0}{0}", Environment.NewLine);
-
         }
+
+        
     }
 }
