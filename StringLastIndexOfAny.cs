@@ -56,8 +56,17 @@ namespace ConsoleAppStrings2
             else
                 Console.Write("(not found)");
             Console.Write("{0}{0}{0}", Environment.NewLine);
+            /*
+                This example produces the following results:
+                The last character occurrence from position 44 for 22 characters.
+                0----+----1----+----2----+----3----+----4----+----5----+----6----+-
+                0123456789012345678901234567890123456789012345678901234567890123456
+                Now is the time for all good men to come to the aid of their party.
+
+                A character in 'aid' occurs at position: 27
+                */
         }
 
 
-        }
+    }
     }
