@@ -10,6 +10,17 @@ namespace ConsoleAppStrings2
     //is padded with spaces or with a specified Unicode character.
     public class StringPadRight
     {
+        public void TestCase() {
+            string str;
+            str = "BBQ and Slaw";
 
+            Console.Write("|");
+            Console.Write(str.PadRight(15));
+            Console.WriteLine("|");       // Displays "|BBQ and Slaw   |".
+
+            Console.Write("|");
+            Console.Write(str.PadRight(5));
+            Console.WriteLine("|");       // Displays "|BBQ and Slaw|".
+        }
     }
 }
