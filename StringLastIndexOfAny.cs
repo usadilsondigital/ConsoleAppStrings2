@@ -10,6 +10,16 @@ namespace ConsoleAppStrings2
     //specified in a Unicode array. The method returns -1 if the characters in the array are not found in this instance.
     public class StringLastIndexOfAny
     {
+        public void TestCase()
+        {
 
+            string br1 = "0----+----1----+----2----+----3----+----4----+----5----+----6----+-";
+            string br2 = "0123456789012345678901234567890123456789012345678901234567890123456";
+            string str = "Now is the time for all good men to come to the aid of their party.";
+            int start;
+            int at;
+            string target = "is";
+            char[] anyOf = target.ToCharArray();
+        }
     }
 }
