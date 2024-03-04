@@ -22,5 +22,18 @@ namespace ConsoleAppStrings2
             Console.Write(str.PadRight(5));
             Console.WriteLine("|");       // Displays "|BBQ and Slaw|".
         }
+
+        public void TestCase2()
+        {
+
+            string str = "forty-two";
+            char pad = '.';
+
+            Console.WriteLine(str.PadRight(15, pad));    // Displays "forty-two......".
+            Console.WriteLine(str.PadRight(2, pad));    // Displays "forty-two".
+        }
+
+
+
     }
 }
