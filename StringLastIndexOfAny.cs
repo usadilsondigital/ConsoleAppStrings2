@@ -33,6 +33,20 @@ namespace ConsoleAppStrings2
             Console.Write("{0}{0}{0}", Environment.NewLine);
         }
 
-        
+
+        public void TestCase2()
+        {
+
+            string br1 = "0----+----1----+----2----+----3----+----4----+----5----+----6----+-";
+            string br2 = "0123456789012345678901234567890123456789012345678901234567890123456";
+            string str = "Now is the time for all good men to come to the aid of their party.";
+            int start;
+            int at;
+            int count;
+            string target = "aid";
+            char[] anyOf = target.ToCharArray();
+        }
+
+
+        }
     }
-}
