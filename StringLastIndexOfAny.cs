@@ -50,6 +50,12 @@ namespace ConsoleAppStrings2
             Console.WriteLine("The last character occurrence from position {0} for {1} characters.", start, count);
             Console.WriteLine("{1}{0}{2}{0}{3}{0}", Environment.NewLine, br1, br2, str);
             Console.Write("A character in '{0}' occurs at position: ", target);
+            at = str.LastIndexOfAny(anyOf, start, count);
+            if (at > -1)
+                Console.Write(at);
+            else
+                Console.Write("(not found)");
+            Console.Write("{0}{0}{0}", Environment.NewLine);
         }
 
 
