@@ -94,5 +94,15 @@ namespace ConsoleAppStrings2
         }
 
 
+        public void TestCase5()
+        {
+            string value = "This is a short string.";
+            char delimiter = 's';
+            string[] substrings = value.Split(delimiter);
+            foreach (var substring in substrings)
+                Console.WriteLine(substring);
+
+        }
+
     }
 }
