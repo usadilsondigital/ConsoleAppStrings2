@@ -170,6 +170,16 @@ namespace ConsoleAppStrings2
             Console.WriteLine($"Result including all elements ({result.Length} elements):");
             Console.Write("   ");
 
+
+            foreach (string s in result)
+            {
+                Console.Write("'{0}' ", String.IsNullOrEmpty(s) ? "<>" : s);
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+
         }
 
     }
