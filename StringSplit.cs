@@ -29,5 +29,21 @@ namespace ConsoleAppStrings2
             // Substring: some.
 
         }
+
+        public void TestCase2()
+        {
+
+            string s = "You win some. You lose some.";
+
+            string[] subs = s.Split(' ', '.');
+
+            foreach (var sub in subs)
+            {
+                Console.WriteLine($"Substring: {sub}");
+            }
+        }
+
+
+
     }
 }
