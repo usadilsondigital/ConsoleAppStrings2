@@ -110,5 +110,21 @@ namespace ConsoleAppStrings2
             //     tring.
         }
 
+        public void TestCase6()
+        {
+            string name = "Alex Johnson III";
+
+            string[] subs = name.Split(null, 2);
+
+            string firstName = subs[0];
+            string lastName;
+            if (subs.Length > 1)
+            {
+                lastName = subs[1];
+            }
+
+
+        }
+
     }
 }
