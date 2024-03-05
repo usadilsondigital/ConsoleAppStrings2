@@ -123,6 +123,8 @@ namespace ConsoleAppStrings2
                 lastName = subs[1];
             }
 
+            // firstName = "Alex"
+            // lastName = "Johnson III"
 
         }
 
