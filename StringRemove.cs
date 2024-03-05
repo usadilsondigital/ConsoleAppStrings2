@@ -9,7 +9,7 @@ namespace ConsoleAppStrings2
     //Returns a new string in which a specified number of characters from the current string are deleted.
     public class StringRemove
     {
-        public  void TestCase()
+        public void TestCase()
         {
             string s = "abc---def";
 
@@ -26,6 +26,15 @@ namespace ConsoleAppStrings2
             3)     abcdef
 
             */
+        }
+
+        public  void TestCase2()
+        {
+
+            string name = "Michelle Violet Banks";
+
+            Console.WriteLine("The entire name is '{0}'", name);
+
         }
 
     }
