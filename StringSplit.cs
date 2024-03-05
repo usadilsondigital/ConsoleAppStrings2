@@ -128,5 +128,15 @@ namespace ConsoleAppStrings2
 
         }
 
+        public void Separators()
+        {
+            string[] separators = { ",", ".", "!", "?", ";", ":", " " };
+            string value = "The handsome, energetic, young dog was playing with his smaller, more lethargic litter mate.";
+            string[] words = value.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            foreach (var word in words)
+                Console.WriteLine(word);
+
+        }
+
     }
 }
