@@ -41,6 +41,16 @@ namespace ConsoleAppStrings2
             {
                 Console.WriteLine($"Substring: {sub}");
             }
+            // This example produces the following output:
+            //
+            // Substring: You
+            // Substring: win
+            // Substring: some
+            // Substring:
+            // Substring: You
+            // Substring: lose
+            // Substring: some
+            // Substring:
         }
 
 
