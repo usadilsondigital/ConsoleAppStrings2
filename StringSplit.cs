@@ -165,6 +165,11 @@ namespace ConsoleAppStrings2
             Console.WriteLine($"Using the delimiter string:\n   \"{stringSeparators[0]}\"");
             Console.WriteLine();
 
+            // Split a string delimited by another string and return all elements.
+            result = source.Split(stringSeparators, StringSplitOptions.None);
+            Console.WriteLine($"Result including all elements ({result.Length} elements):");
+            Console.Write("   ");
+
         }
 
     }
