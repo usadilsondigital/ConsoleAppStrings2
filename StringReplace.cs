@@ -20,5 +20,16 @@ namespace ConsoleAppStrings2
             // Original string: "1 2 3 4 5 6 7 8 9"
             // CSV string:      "1,2,3,4,5,6,7,8,9"
         }
+
+        public void TestCase2() {
+            String s = new String('a', 3);
+            Console.WriteLine("The initial string: '{0}'", s);
+            s = s.Replace('a', 'b').Replace('b', 'c').Replace('c', 'd');
+            Console.WriteLine("The final string: '{0}'", s);
+
+            }
+
+
+
+        }
     }
-}
