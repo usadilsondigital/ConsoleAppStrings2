@@ -61,7 +61,10 @@ namespace ConsoleAppStrings2
         //Method calls are executed from left to right. The following example provides an illustration
         public string TestCase4()
         {
-
+            String s = "aaa";
+            Console.WriteLine("The initial string: '{0}'", s);
+            s = s.Replace("a", "b").Replace("b", "c").Replace("c", "d");
+            Console.WriteLine("The final string: '{0}'", s);
 
         }
 
