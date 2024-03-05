@@ -56,6 +56,15 @@ namespace ConsoleAppStrings2
             //
         }
 
+        //Because this method returns the modified string, you can chain together successive calls
+        //to the Replace method to perform multiple replacements on the original string.
+        //Method calls are executed from left to right. The following example provides an illustration
+        public string TestCase4()
+        {
+
+
+        }
+
 
 
     }
