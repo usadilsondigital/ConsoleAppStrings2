@@ -83,6 +83,13 @@ namespace ConsoleAppStrings2
             {
                 Console.WriteLine($"Substring: {sub}");
             }
+            // This example produces the following output:
+            //
+            // Substring: Today
+            // Substring: I'm
+            // Substring: going
+            // Substring: to
+            // Substring: school
 
         }
 
