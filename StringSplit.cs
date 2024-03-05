@@ -136,6 +136,21 @@ namespace ConsoleAppStrings2
             foreach (var word in words)
                 Console.WriteLine(word);
 
+            // The example displays the following output:
+            //       The
+            //       handsome
+            //       energetic
+            //       young
+            //       dog
+            //       was
+            //       playing
+            //       with
+            //       his
+            //       smaller
+            //       more
+            //       lethargic
+            //       litter
+            //       mate
         }
 
     }
