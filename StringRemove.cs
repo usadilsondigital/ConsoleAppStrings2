@@ -43,6 +43,9 @@ namespace ConsoleAppStrings2
 
                 Console.WriteLine("After removing the middle name, we are left with '{0}'", name);
             }
+            // The example displays the following output:
+            //       The entire name is 'Michelle Violet Banks'
+            //       After removing the middle name, we are left with 'Michelle Banks'
 
         }
 
