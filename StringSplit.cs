@@ -74,6 +74,18 @@ namespace ConsoleAppStrings2
             // Substring: some
         }
 
+        public void TestCase4()
+        {
+            string s = "Today\tI'm going to school";
+            string[] subs = s.Split(' ', '\t');
+
+            foreach (var sub in subs)
+            {
+                Console.WriteLine($"Substring: {sub}");
+            }
+
+        }
+
 
     }
 }
