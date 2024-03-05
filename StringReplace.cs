@@ -46,7 +46,14 @@ namespace ConsoleAppStrings2
             Console.WriteLine("After correcting the string, the result is:{0}'{1}'",
                     Environment.NewLine, correctString);
 
-            
+            // This code example produces the following output:
+            //
+            // The original string is:
+            // 'This docment uses 3 other docments to docment the docmentation'
+            //
+            // After correcting the string, the result is:
+            // 'This document uses 3 other documents to document the documentation'
+            //
         }
 
 
