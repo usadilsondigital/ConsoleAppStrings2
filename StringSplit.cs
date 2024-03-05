@@ -159,6 +159,11 @@ namespace ConsoleAppStrings2
             string source = "[stop]ONE[stop][stop]TWO[stop][stop][stop]THREE[stop][stop]";
             string[] stringSeparators = new string[] { "[stop]" };
             string[] result;
+            // Display the original string and delimiter string.
+            Console.WriteLine($"Splitting the string:\n   \"{source}\".");
+            Console.WriteLine();
+            Console.WriteLine($"Using the delimiter string:\n   \"{stringSeparators[0]}\"");
+            Console.WriteLine();
 
         }
 
