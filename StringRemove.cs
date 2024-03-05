@@ -34,6 +34,9 @@ namespace ConsoleAppStrings2
             string name = "Michelle Violet Banks";
 
             Console.WriteLine("The entire name is '{0}'", name);
+            // Remove the middle name, identified by finding the spaces in the name.
+            int foundS1 = name.IndexOf(" ");
+            int foundS2 = name.IndexOf(" ", foundS1 + 1);
 
         }
 
