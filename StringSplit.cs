@@ -153,5 +153,14 @@ namespace ConsoleAppStrings2
             //       mate
         }
 
+
+        public void TestCase7()
+        {
+            string source = "[stop]ONE[stop][stop]TWO[stop][stop][stop]THREE[stop][stop]";
+            string[] stringSeparators = new string[] { "[stop]" };
+            string[] result;
+
+        }
+
     }
 }
