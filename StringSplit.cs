@@ -178,7 +178,15 @@ namespace ConsoleAppStrings2
             Console.WriteLine();
             Console.WriteLine();
 
-
+            // Split delimited by another string and return all non-empty elements.
+            result = source.Split(stringSeparators, StringSplitOptions.RemoveEmptyEntries);
+            Console.WriteLine($"Result including non-empty elements ({result.Length} elements):");
+            Console.Write("   ");
+            foreach (string s in result)
+            {
+                Console.Write("'{0}' ", String.IsNullOrEmpty(s) ? "<>" : s);
+            }
+            Console.WriteLine();
 
         }
 
