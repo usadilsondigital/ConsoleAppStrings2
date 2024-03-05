@@ -102,6 +102,12 @@ namespace ConsoleAppStrings2
             foreach (var substring in substrings)
                 Console.WriteLine(substring);
 
+            // The example displays the following output:
+            //     Thi
+            //      i
+            //      a
+            //     hort
+            //     tring.
         }
 
     }
