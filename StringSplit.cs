@@ -188,6 +188,19 @@ namespace ConsoleAppStrings2
             }
             Console.WriteLine();
 
+            // The example displays the following output:
+            //    Splitting the string:
+            //       "[stop]ONE[stop][stop]TWO[stop][stop][stop]THREE[stop][stop]".
+            //    
+            //    Using the delimiter string:
+            //       "[stop]"
+            //    
+            //    Result including all elements (9 elements):
+            //       '<>' 'ONE' '<>' 'TWO' '<>' '<>' 'THREE' '<>' '<>'
+            //    
+            //    Result including non-empty elements (3 elements):
+            //       'ONE' 'TWO' 'THREE'
+
         }
 
     }
