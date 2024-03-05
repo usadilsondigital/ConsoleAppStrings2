@@ -10,5 +10,17 @@ namespace ConsoleAppStrings2
     //that are delimited by elements of a specified string or Unicode character array.
     public class StringSplit
     {
+        public void TestCase() {
+            string s = "You win some. You lose some.";
+
+            string[] subs = s.Split(' ');
+
+            foreach (var sub in subs)
+            {
+                Console.WriteLine($"Substring: {sub}");
+            }
+
+           
+        }
     }
 }
