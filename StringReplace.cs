@@ -39,6 +39,13 @@ namespace ConsoleAppStrings2
 
             Console.WriteLine("The original string is:{0}'{1}'{0}", Environment.NewLine, errString);
 
+            // Correct the spelling of "document".
+
+            string correctString = errString.Replace("docment", "document");
+
+            Console.WriteLine("After correcting the string, the result is:{0}'{1}'",
+                    Environment.NewLine, correctString);
+
             
         }
 
