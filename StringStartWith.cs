@@ -89,6 +89,10 @@ namespace ConsoleAppStrings2
             Console.WriteLine("'{0}':", title);
             Console.WriteLine("   Starts with '{0}' ({1:G} comparison): {2}",searchString, comparison,
                               title.StartsWith(searchString, comparison));
+            comparison = StringComparison.InvariantCultureIgnoreCase;
+            Console.WriteLine("   Starts with '{0}' ({1:G} comparison): {2}",
+                              searchString, comparison,
+                              title.StartsWith(searchString, comparison));
         }
 
 
