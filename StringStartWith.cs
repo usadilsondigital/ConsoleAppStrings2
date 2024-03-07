@@ -99,6 +99,12 @@ namespace ConsoleAppStrings2
             //          Starts with 'the' (InvariantCultureIgnoreCase comparison): True
         }
 
+        public void StripStartTags()
+        {
+
+
+        }
+
 
     }
 }
