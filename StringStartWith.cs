@@ -55,6 +55,10 @@ namespace ConsoleAppStrings2
             result = aRingXYZ.StartsWith(capitalARing, false, ci);
             Console.WriteLine(msg3, result);
 
+            Console.WriteLine("Case insensitive:");
+            result = aRingXYZ.StartsWith(capitalARing, true, ci);
+            Console.WriteLine(msg3, result);
+
         }
     }
 }
