@@ -28,6 +28,16 @@ namespace ConsoleAppStrings2
                 // LATIN SMALL LETTER A WITH RING ABOVE (U+00e5).
                 string aRingXYZ = "\u0061\u030a" + "xyz";
 
+            // Clear the screen and display an introduction.
+            Console.Clear();
+
+            // Display the string to search for and the string to search.
+            Console.WriteLine(msg1, capitalARing, aRingXYZ);
+
+            // Search using English-United States culture.
+            ci = new CultureInfo("en-US");
+            Console.WriteLine(msg2, ci.DisplayName, ci.Name);
+
         }
     }
 }
