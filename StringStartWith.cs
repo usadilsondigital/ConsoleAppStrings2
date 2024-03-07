@@ -38,6 +38,10 @@ namespace ConsoleAppStrings2
             ci = new CultureInfo("en-US");
             Console.WriteLine(msg2, ci.DisplayName, ci.Name);
 
+            Console.WriteLine("Case sensitive:");
+            result = aRingXYZ.StartsWith(capitalARing, false, ci);
+            Console.WriteLine(msg3, result);
+
         }
     }
 }
