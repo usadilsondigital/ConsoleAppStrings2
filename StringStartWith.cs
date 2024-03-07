@@ -47,6 +47,14 @@ namespace ConsoleAppStrings2
             Console.WriteLine(msg3, result);
             Console.WriteLine();
 
+            // Search using Swedish-Sweden culture.
+            ci = new CultureInfo("sv-SE");
+            Console.WriteLine(msg2, ci.DisplayName, ci.Name);
+
+            Console.WriteLine("Case sensitive:");
+            result = aRingXYZ.StartsWith(capitalARing, false, ci);
+            Console.WriteLine(msg3, result);
+
         }
     }
 }
