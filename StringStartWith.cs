@@ -107,6 +107,13 @@ namespace ConsoleAppStrings2
                 "<b>This has <i>embedded</i> tags.</b>",
                 "<This line simply begins with a lesser than symbol, it should not be modified" };
 
+            // Display the initial string array.
+            Console.WriteLine("The original strings:");
+            Console.WriteLine("---------------------");
+            foreach (var s in strSource)
+                Console.WriteLine(s);
+            Console.WriteLine();
+
         }
 
 
