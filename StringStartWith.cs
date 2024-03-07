@@ -120,7 +120,18 @@ namespace ConsoleAppStrings2
             foreach (var s in strSource)
                 Console.WriteLine(StripStartTags(s));
         }
-    }
+
+
+        private static string StripStartTags(string item)
+        {
+            // Determine whether a tag begins the string.
+            if (item.Trim().StartsWith("<"))
+            {
+               
+            }
+
+            return item;
+        }
 
 
     }
