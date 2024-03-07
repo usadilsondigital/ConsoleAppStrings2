@@ -127,7 +127,13 @@ namespace ConsoleAppStrings2
             // Determine whether a tag begins the string.
             if (item.Trim().StartsWith("<"))
             {
-               
+                // Find the closing tag.
+                int lastLocation = item.IndexOf(">");
+                // Remove the tag.
+                if (lastLocation >= 0)
+                {
+                   
+                }
             }
 
             return item;
