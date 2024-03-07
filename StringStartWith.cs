@@ -113,8 +113,14 @@ namespace ConsoleAppStrings2
             foreach (var s in strSource)
                 Console.WriteLine(s);
             Console.WriteLine();
+            Console.WriteLine("Strings after starting tags have been stripped:");
+            Console.WriteLine("-----------------------------------------------");
 
+            // Display the strings with starting tags removed.
+            foreach (var s in strSource)
+                Console.WriteLine(StripStartTags(s));
         }
+    }
 
 
     }
