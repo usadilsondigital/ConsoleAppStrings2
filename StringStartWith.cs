@@ -132,7 +132,10 @@ namespace ConsoleAppStrings2
                 // Remove the tag.
                 if (lastLocation >= 0)
                 {
-                   
+                    item = item.Substring(lastLocation + 1);
+
+                    // Remove any additional starting tags.
+                    item = StripStartTags(item);
                 }
             }
 
