@@ -59,6 +59,26 @@ namespace ConsoleAppStrings2
             result = aRingXYZ.StartsWith(capitalARing, true, ci);
             Console.WriteLine(msg3, result);
 
+            /*
+                Note: This code example was executed on a console whose user interface 
+            culture is "en-US" (English-United States).
+
+            Search for the target string "Å" in the string "a°xyz".
+
+            Using the English (United States) - "en-US" culture:
+            Case sensitive:
+              The string to search ends with the target string: False
+            Case insensitive:
+              The string to search ends with the target string: True
+
+            Using the Swedish (Sweden) - "sv-SE" culture:
+            Case sensitive:
+              The string to search ends with the target string: False
+            Case insensitive:
+              The string to search ends with the target string: False
+
+            */
+
         }
     }
 }
