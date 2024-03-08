@@ -13,8 +13,7 @@ namespace ConsoleAppStrings2
     public class StringSubstring
     {
         public void GetSubstring() {
-            string[] info = { "Name: Felica Walker", "Title: Mz.",
-                   "Age: 47", "Location: Paris", "Gender: F"};
+            string[] info = { "Name: Felica Walker", "Title: Mz.","Age: 47", "Location: Paris", "Gender: F"};
             int found = 0;
 
             Console.WriteLine("The initial values in the array are:");
@@ -43,6 +42,11 @@ namespace ConsoleAppStrings2
             //          F
         }
 
+        //The following example uses the Substring method to separate key/value pairs
+        //that are delimited by an equals (=) character.
+        public void SeparateValues() {
+            String[] pairs = { "Color1=red", "Color2=green", "Color3=blue","Title=Code Repository" };
+        }
 
     }
 }
