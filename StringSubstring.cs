@@ -53,6 +53,11 @@ namespace ConsoleAppStrings2
                     continue;
                 Console.WriteLine("Key: {0}, Value: '{1}'",pair.Substring(0, position),pair.Substring(position + 1));
             }
+            // The example displays the following output:
+            //     Key: Color1, Value: 'red'
+            //     Key: Color2, Value: 'green'
+            //     Key: Color3, Value: 'blue'
+            //     Key: Title, Value: 'Code Repository'
         }
 
     }
