@@ -51,6 +51,7 @@ namespace ConsoleAppStrings2
                 int position = pair.IndexOf("=");
                 if (position < 0)
                     continue;
+                Console.WriteLine("Key: {0}, Value: '{1}'",pair.Substring(0, position),pair.Substring(position + 1));
             }
         }
 
