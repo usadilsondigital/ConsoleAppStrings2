@@ -61,8 +61,12 @@ namespace ConsoleAppStrings2
         }
 
         //extracts two characters
-        public void TestCase() { 
-        
+        public void TestCase() {
+            String value = "This is a string.";
+            int startIndex = 5;
+            int length = 2;
+            String substring = value.Substring(startIndex, length);
+            Console.WriteLine(substring);
         }
 
     }
