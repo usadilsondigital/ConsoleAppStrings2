@@ -60,5 +60,10 @@ namespace ConsoleAppStrings2
             //     Key: Title, Value: 'Code Repository'
         }
 
+        //extracts two characters
+        public void TestCase() { 
+        
+        }
+
     }
 }
