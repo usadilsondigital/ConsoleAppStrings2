@@ -71,5 +71,13 @@ namespace ConsoleAppStrings2
             //       is
         }
 
+        public void TestCase2() {
+            string myString = "abc";
+            bool test1 = myString.Substring(2, 1).Equals("c"); // This is true.
+            Console.WriteLine(test1);
+            bool test2 = string.IsNullOrEmpty(myString.Substring(3, 0)); // This is true.
+            Console.WriteLine(test2);
+        }
+
     }
 }
