@@ -18,6 +18,10 @@ namespace ConsoleAppStrings2
             Console.Write(arr);
             Console.WriteLine("'");
             Console.WriteLine("Each letter in '{0}' is:", str);
+            foreach (char c in arr)
+                Console.WriteLine(c);
         }
+
+    
     }
 }
