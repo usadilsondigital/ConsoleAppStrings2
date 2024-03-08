@@ -67,6 +67,8 @@ namespace ConsoleAppStrings2
             int length = 2;
             String substring = value.Substring(startIndex, length);
             Console.WriteLine(substring);
+            // The example displays the following output:
+            //       is
         }
 
     }
