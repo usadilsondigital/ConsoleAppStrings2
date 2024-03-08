@@ -12,5 +12,16 @@ namespace ConsoleAppStrings2
     //including syntax, usage, and examples, click a name in the overload list.
     public class StringSubstring
     {
+        public void GetSubstring() {
+            string[] info = { "Name: Felica Walker", "Title: Mz.",
+                   "Age: 47", "Location: Paris", "Gender: F"};
+            int found = 0;
+
+            Console.WriteLine("The initial values in the array are:");
+            foreach (string s in info)
+                Console.WriteLine(s);
+        }
+
+
     }
 }
