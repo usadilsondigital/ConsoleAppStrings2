@@ -20,8 +20,18 @@ namespace ConsoleAppStrings2
             Console.WriteLine("Each letter in '{0}' is:", str);
             foreach (char c in arr)
                 Console.WriteLine(c);
+
+            /*
+            This example produces the following results:
+            The letters in '012wxyz789' are: 'wxyz'
+            Each letter in '012wxyz789' is:
+            w
+            x
+            y
+            z
+            */
         }
 
-    
+
     }
 }
