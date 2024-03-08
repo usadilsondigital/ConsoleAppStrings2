@@ -23,6 +23,11 @@ namespace ConsoleAppStrings2
             foreach (string s in info)
                 Console.WriteLine(s.ToLower());
 
+            Console.WriteLine("{0}The uppercase of these values is:", Environment.NewLine);
+
+            foreach (string s in info)
+                Console.WriteLine(s.ToUpper());
+
         }
     }
 }
