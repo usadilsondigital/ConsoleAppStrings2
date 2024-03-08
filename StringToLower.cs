@@ -18,6 +18,11 @@ namespace ConsoleAppStrings2
             foreach (string s in info)
                 Console.WriteLine(s);
 
+            Console.WriteLine("{0}The lowercase of these values is:", Environment.NewLine);
+
+            foreach (string s in info)
+                Console.WriteLine(s.ToLower());
+
         }
     }
 }
