@@ -86,6 +86,11 @@ namespace ConsoleAppStrings2
             {
                 Console.WriteLine(e.Message);
             }
+            // The example displays the following output:
+            //       True
+            //       True
+            //       Index and length must refer to a location within the string.
+            //       Parameter name: length
         }
 
     }
