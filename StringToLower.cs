@@ -27,6 +27,27 @@ namespace ConsoleAppStrings2
 
             foreach (string s in info)
                 Console.WriteLine(s.ToUpper());
+            // The example displays the following output:
+            //       The initial values in the array are:
+            //       Name
+            //       Title
+            //       Age
+            //       Location
+            //       Gender
+            //
+            //       The lowercase of these values is:
+            //       name
+            //       title
+            //       age
+            //       location
+            //       gender
+            //
+            //       The uppercase of these values is:
+            //       NAME
+            //       TITLE
+            //       AGE
+            //       LOCATION
+            //       GENDER
 
         }
     }
