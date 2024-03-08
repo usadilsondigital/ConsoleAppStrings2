@@ -46,6 +46,12 @@ namespace ConsoleAppStrings2
         //that are delimited by an equals (=) character.
         public void SeparateValues() {
             String[] pairs = { "Color1=red", "Color2=green", "Color3=blue","Title=Code Repository" };
+            foreach (var pair in pairs)
+            {
+                int position = pair.IndexOf("=");
+                if (position < 0)
+                    continue;
+            }
         }
 
     }
