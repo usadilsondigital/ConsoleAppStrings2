@@ -25,5 +25,14 @@ namespace ConsoleAppStrings2
             Console.WriteLine("str1 same as str2?: {0}", Object.ReferenceEquals(str1, str2));
 
         }
+        /*
+            This code produces the following output:
+            Original str1: 123
+            Original str2: abc
+            str1 same as str2?: False
+
+            New str2:      123
+            str1 same as str2?: True
+            */
     }
 }
