@@ -95,6 +95,30 @@ namespace ConsoleAppStrings2
                 Console.Write("{0:x4} ", u);
             Console.WriteLine();
         }
+        /*
+            This example produces the following results:
+
+            str1 = 'INDIGO'
+
+            str1 is not equal to str2.
+
+            The code points in str1 are:
+            0049 004e 0044 0049 0047 004f
+
+            The code points in str2 are:
+            0130 004e 0044 0130 0047 004f
+
+            str3 = Lower case copy of str2 using English-United States culture.
+            str4 = Lower case copy of str2 using Turkish-Turkey culture.
+
+            str3 is equal to str4.
+
+            The code points in str3 are:
+            0069 006e 0064 0069 0067 006f
+
+            The code points in str4 are:
+            0069 006e 0064 0069 0067 006f
+            */
 
 
     }
