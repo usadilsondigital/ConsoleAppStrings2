@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,6 +65,15 @@ namespace ConsoleAppStrings2
 
             Console.WriteLine();
             Console.WriteLine("str1 is {0} to str2.",((0 == String.CompareOrdinal(str1, str2)) ? "equal" : "not equal"));
+
+            CodePoints("str1", str1);
+            CodePoints("str2", str2);
+
+            Console.WriteLine();
+            // str3 is a lower case copy of str2, using English-United States culture.
+            Console.WriteLine("str3 = Lower case copy of str2 using English-United States culture.");
+            str3 = str2.ToLower(new CultureInfo("en-US", false));
+
         }
     }
 }
