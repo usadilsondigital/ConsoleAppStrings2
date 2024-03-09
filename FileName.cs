@@ -11,6 +11,17 @@ namespace ConsoleAppStrings2
         private readonly StringComparer _comparer;
 
         public string Name { get; }
+
+        public FileName(string name, StringComparer? comparer)
+        {
+            if (string.IsNullOrEmpty(name)) throw new ArgumentNullException(nameof(name));
+
+            Name = name;
+
+           
+        }
+
+
         public int CompareTo(object? obj)
         {
             throw new NotImplementedException();
