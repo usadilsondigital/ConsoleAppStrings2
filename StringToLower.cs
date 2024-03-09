@@ -74,6 +74,11 @@ namespace ConsoleAppStrings2
             Console.WriteLine("str3 = Lower case copy of str2 using English-United States culture.");
             str3 = str2.ToLower(new CultureInfo("en-US", false));
 
+            // str4 is a lower case copy of str2, using Turkish-Turkey culture.
+            Console.WriteLine("str4 = Lower case copy of str2 using Turkish-Turkey culture.");
+            str4 = str2.ToLower(new CultureInfo("tr-TR", false));
+
+
         }
     }
 }
