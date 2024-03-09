@@ -29,6 +29,11 @@ namespace ConsoleAppStrings2
         public int CompareTo(object? obj)
         {
             if (obj == null) return 1;
+
+            if (obj is not FileName)
+                return _comparer.Compare(Name, obj.ToString());
+            else
+                return _comparer.Compare(Name, ((FileName)obj).Name);
         }
     }
 }
