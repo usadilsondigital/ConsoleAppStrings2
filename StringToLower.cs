@@ -79,6 +79,23 @@ namespace ConsoleAppStrings2
             str4 = str2.ToLower(new CultureInfo("tr-TR", false));
 
 
+            // Compare the code points in str3 and str4.
+            Console.WriteLine();
+            Console.WriteLine("str3 is {0} to str4.",
+                 ((0 == String.CompareOrdinal(str3, str4)) ? "equal" : "not equal"));
+            CodePoints("str3", str3);
+            CodePoints("str4", str4);
+
         }
+
+        public static void CodePoints(String title, String s)
+        {
+            Console.Write("{0}The code points in {1} are: {0}", Environment.NewLine, title);
+            foreach (ushort u in s)
+                Console.Write("{0:x4} ", u);
+            Console.WriteLine();
+        }
+
+
     }
 }
