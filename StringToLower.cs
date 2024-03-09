@@ -9,7 +9,7 @@ namespace ConsoleAppStrings2
     //Returns a copy of this string converted to lowercase.
     public class StringToLower
     {
-        public  void TestCase()
+        public void TestCase()
         {
 
             string[] info = { "Name", "Title", "Age", "Location", "Gender" };
@@ -49,6 +49,16 @@ namespace ConsoleAppStrings2
             //       LOCATION
             //       GENDER
 
+        }
+
+
+        public void TestCase2()
+        {
+
+            String str1 = "INDIGO";
+            // str2 = str1, except each 'I' is '\u0130' (Unicode LATIN CAPITAL I WITH DOT ABOVE).
+            String str2 = new String(new Char[] { '\u0130', 'N', 'D', '\u0130', 'G', 'O' });
+            String str3, str4;
         }
     }
 }
