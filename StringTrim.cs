@@ -28,6 +28,15 @@ namespace ConsoleAppStrings2
                         lastName.Trim()).Trim();
             Console.WriteLine("The result is " + name + ".");
 
+            // The following is a possible output from this example:
+            //       Enter your first name:    John
+            //       Enter your middle name or initial:
+            //       Enter your last name:    Doe
+            //       
+            //       You entered '   John  ', '', and '   Doe'.
+            //       The result is John Doe.
+
+
         }
     }
  }
