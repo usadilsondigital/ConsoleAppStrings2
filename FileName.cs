@@ -28,7 +28,7 @@ namespace ConsoleAppStrings2
 
         public int CompareTo(object? obj)
         {
-            throw new NotImplementedException();
+            if (obj == null) return 1;
         }
     }
 }
