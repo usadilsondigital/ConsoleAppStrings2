@@ -8,7 +8,10 @@ namespace ConsoleAppStrings2
 {
     public class StringToString
     {
-        public  void TestCase()
+
+        //The following example demonstrates the ToString method.Note that the example does not explicitly call the ToString method.
+        //sInstead, the method is called implicitly by the composite formatting feature.
+        public void TestCase()
         {
             String str1 = "123";
             String str2 = "abc";
