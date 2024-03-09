@@ -18,7 +18,11 @@ namespace ConsoleAppStrings2
 
             Name = name;
 
-           
+            if (comparer != null)
+                _comparer = comparer;
+            else
+                _comparer = StringComparer.OrdinalIgnoreCase;
+
         }
 
 
