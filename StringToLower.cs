@@ -59,6 +59,11 @@ namespace ConsoleAppStrings2
             // str2 = str1, except each 'I' is '\u0130' (Unicode LATIN CAPITAL I WITH DOT ABOVE).
             String str2 = new String(new Char[] { '\u0130', 'N', 'D', '\u0130', 'G', 'O' });
             String str3, str4;
+            Console.WriteLine();
+            Console.WriteLine("str1 = '{0}'", str1);
+
+            Console.WriteLine();
+            Console.WriteLine("str1 is {0} to str2.",((0 == String.CompareOrdinal(str1, str2)) ? "equal" : "not equal"));
         }
     }
 }
