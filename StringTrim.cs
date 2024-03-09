@@ -11,5 +11,10 @@ namespace ConsoleAppStrings2
     public class StringTrim
     {
 
+        public  void Trim()
+        {
+            Console.Write("Enter your first name: ");
+            string firstName = Console.ReadLine();
+        }
     }
-}
+ }
