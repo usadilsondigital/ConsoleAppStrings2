@@ -31,6 +31,10 @@ namespace ConsoleAppStrings2
             // This line has leading characters: _____Hello World!
             // This line has leading characters: xxxxHello World!
 
+            // A basic demonstration of TrimStart in action
+            lineAfterTrimStart = lineWithLeadingSpaces.TrimStart(' ');
+            Console.WriteLine($"This is the result after calling TrimStart: {lineAfterTrimStart}");
+            // This is the result after calling TrimStart: Hello World!   
 
 
         }
