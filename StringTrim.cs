@@ -38,5 +38,12 @@ namespace ConsoleAppStrings2
 
 
         }
+
+
+        public void TestCase2()
+        {
+            char[] charsToTrim = { '*', ' ', '\'' };
+            string banner = "*** Much Ado About Nothing ***";
+        }
     }
  }
