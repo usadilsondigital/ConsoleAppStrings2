@@ -9,6 +9,15 @@ namespace ConsoleAppStrings2
     //Removes all the leading white-space characters from the current string.
     public class StringTrimStart
     {
+        public void TestCase()
+        {
+            // TrimStart examples
+            string lineWithLeadingSpaces = "   Hello World!";
+            string lineWithLeadingSymbols = "$$$$Hello World!";
+            string lineWithLeadingUnderscores = "_____Hello World!";
+            string lineWithLeadingLetters = "xxxxHello World!";
+            string lineAfterTrimStart = string.Empty;
+        }
 
     }
 }
