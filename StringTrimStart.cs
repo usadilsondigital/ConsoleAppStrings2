@@ -82,6 +82,11 @@ namespace ConsoleAppStrings2
             foreach (string line in lines)
                 Console.WriteLine("   {0}", line);
 
+            string[] strippedLines = StripComments(lines);
+            Console.WriteLine("After call to StripComments:");
+            foreach (string line in strippedLines)
+                Console.WriteLine("   {0}", line);
+
         }
 
         }
