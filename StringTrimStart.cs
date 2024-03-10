@@ -43,7 +43,13 @@ namespace ConsoleAppStrings2
             {
                 Console.WriteLine(lineToEdit.TrimStart(' ', '$', '_', 'x'));
             }
+            // Result for each: Hello World!
 
+            // or handle pieces of data that have multiple kinds of leading characters 
+            var lineToBeTrimmed = "__###__ John Smith";
+            lineAfterTrimStart = lineToBeTrimmed.TrimStart('_', '#', ' ');
+            Console.WriteLine(lineAfterTrimStart);
+            // Result: John Smith
 
         }
 
