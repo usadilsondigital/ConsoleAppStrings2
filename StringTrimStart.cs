@@ -36,6 +36,14 @@ namespace ConsoleAppStrings2
             Console.WriteLine($"This is the result after calling TrimStart: {lineAfterTrimStart}");
             // This is the result after calling TrimStart: Hello World!   
 
+            // Since TrimStart accepts a character array of leading items to be removed as an argument,
+            // it's possible to do things like trim multiple pieces of data that each have different 
+            // leading characters,
+            foreach (var lineToEdit in lines)
+            {
+                Console.WriteLine(lineToEdit.TrimStart(' ', '$', '_', 'x'));
+            }
+
 
         }
 
