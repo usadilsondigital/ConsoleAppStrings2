@@ -44,6 +44,9 @@ namespace ConsoleAppStrings2
         {
             char[] charsToTrim = { '*', ' ', '\'' };
             string banner = "*** Much Ado About Nothing ***";
+
+            string result = banner.Trim(charsToTrim);
+            Console.WriteLine("Trimmed\n   {0}\nto\n   '{1}'", banner, result);
         }
     }
  }
