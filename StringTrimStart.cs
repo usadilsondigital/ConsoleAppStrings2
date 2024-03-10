@@ -17,6 +17,10 @@ namespace ConsoleAppStrings2
             string lineWithLeadingUnderscores = "_____Hello World!";
             string lineWithLeadingLetters = "xxxxHello World!";
             string lineAfterTrimStart = string.Empty;
+
+            // Make it easy to print out and work with all of the examples
+            string[] lines = { lineWithLeadingSpaces, lineWithLeadingSymbols, lineWithLeadingUnderscores, lineWithLeadingLetters };
+
         }
 
     }
