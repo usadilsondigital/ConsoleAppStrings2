@@ -25,6 +25,13 @@ namespace ConsoleAppStrings2
             {
                 Console.WriteLine($"This line has leading characters: {line}");
             }
+            // Output:
+            // This line has leading characters:    Hello World!
+            // This line has leading characters: $$$$Hello World!
+            // This line has leading characters: _____Hello World!
+            // This line has leading characters: xxxxHello World!
+
+
 
         }
 
