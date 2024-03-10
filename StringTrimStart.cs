@@ -64,5 +64,20 @@ namespace ConsoleAppStrings2
             return lineList.ToArray();
         }
 
-    }
+        public  void TestCase2()
+        {
+            string[] lines = {"using System;",
+                   "",
+                   "public class HelloWorld",
+                   "{",
+                   "   public static void Main()",
+                   "   {",
+                   "      // This code displays a simple greeting",
+                   "      // to the console.",
+                   "      Console.WriteLine(\"Hello, World.\");",
+                   "   }",
+                   "}"};
+        }
+
+        }
 }
