@@ -77,6 +77,11 @@ namespace ConsoleAppStrings2
                    "      Console.WriteLine(\"Hello, World.\");",
                    "   }",
                    "}"};
+
+            Console.WriteLine("Before call to StripComments:");
+            foreach (string line in lines)
+                Console.WriteLine("   {0}", line);
+
         }
 
         }
