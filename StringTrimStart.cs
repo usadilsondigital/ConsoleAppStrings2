@@ -21,6 +21,11 @@ namespace ConsoleAppStrings2
             // Make it easy to print out and work with all of the examples
             string[] lines = { lineWithLeadingSpaces, lineWithLeadingSymbols, lineWithLeadingUnderscores, lineWithLeadingLetters };
 
+            foreach (var line in lines)
+            {
+                Console.WriteLine($"This line has leading characters: {line}");
+            }
+
         }
 
     }
