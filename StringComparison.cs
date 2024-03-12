@@ -36,5 +36,17 @@ namespace ConsoleAppStrings2
             }
 
         }
-        }
+
+        // The example displays the following output:
+        //    Current Culture: en-US
+        //       a = a- (CurrentCulture): False
+        //       a = a- (CurrentCultureIgnoreCase): False
+        //       a = a- (InvariantCulture): False
+        //       a = a- (InvariantCultureIgnoreCase): False
+        //       a = a- (Ordinal): False
+        //       a = a- (OrdinalIgnoreCase): False
+        //
+
+
     }
+}
