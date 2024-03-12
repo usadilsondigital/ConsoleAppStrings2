@@ -17,6 +17,9 @@ namespace ConsoleAppStrings2
                 String[] strings2 = { "a-", "\u0130", "Case" };
                 StringComparison[] comparisons = (StringComparison[])Enum.GetValues(typeof(StringComparison));
 
+            foreach (var cultureName in cultureNames)
+            { }
+
             }
         }
     }
