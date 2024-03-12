@@ -80,6 +80,16 @@ namespace ConsoleAppStrings2
         //       i = İ (OrdinalIgnoreCase): False
         //
 
+        //       case = Case (CurrentCulture): False
+        //       case = Case (CurrentCultureIgnoreCase): True
+        //       case = Case (InvariantCulture): False
+        //       case = Case (InvariantCultureIgnoreCase): True
+        //       case = Case (Ordinal): False
+        //       case = Case (OrdinalIgnoreCase): True
+        //
+        //
+
+
 
 
     }
