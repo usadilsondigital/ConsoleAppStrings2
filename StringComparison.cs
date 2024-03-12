@@ -63,5 +63,14 @@ namespace ConsoleAppStrings2
         //       case = Case (OrdinalIgnoreCase): True
         //
 
+        //    Current Culture: th-TH
+        //       a = a- (CurrentCulture): True
+        //       a = a- (CurrentCultureIgnoreCase): True
+        //       a = a- (InvariantCulture): False
+        //       a = a- (InvariantCultureIgnoreCase): False
+        //       a = a- (Ordinal): False
+        //       a = a- (OrdinalIgnoreCase): False
+        //
+
     }
 }
