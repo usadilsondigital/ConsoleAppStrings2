@@ -31,7 +31,7 @@ namespace ConsoleAppStrings2
 
                     Console.WriteLine();
                 }
-
+                Console.WriteLine();
 
             }
 
