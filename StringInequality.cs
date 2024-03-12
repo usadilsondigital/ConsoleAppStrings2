@@ -30,6 +30,15 @@ namespace ConsoleAppStrings2
                 Lower, Comparand, Lower != Comparand);
         }
 
+        /*
+            This example of the String Inequality operator
+            generates the following output.
+
+            "abcd" != "ijkl" ?  True
+            "abcd" != "ABCD" ?  True
+            "abcd" != "abcd" ?  False
+            */
+
 
     }
 }
