@@ -21,6 +21,15 @@ namespace ConsoleAppStrings2
             CompareAndDisplay("abcd");
         }
 
+        public void CompareAndDisplay(String Comparand)
+        {
+            String Lower = "abcd";
+
+            Console.WriteLine(
+                "\"{0}\" != \"{1}\" ?  {2}",
+                Lower, Comparand, Lower != Comparand);
+        }
+
 
     }
 }
