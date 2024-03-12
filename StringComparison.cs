@@ -89,6 +89,15 @@ namespace ConsoleAppStrings2
         //
         //
 
+        //    Current Culture: tr-TR
+        //       a = a- (CurrentCulture): False
+        //       a = a- (CurrentCultureIgnoreCase): False
+        //       a = a- (InvariantCulture): False
+        //       a = a- (InvariantCultureIgnoreCase): False
+        //       a = a- (Ordinal): False
+        //       a = a- (OrdinalIgnoreCase): False
+        //
+
 
 
 
