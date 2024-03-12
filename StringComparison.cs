@@ -72,5 +72,15 @@ namespace ConsoleAppStrings2
         //       a = a- (OrdinalIgnoreCase): False
         //
 
+        //       i = İ (CurrentCulture): False
+        //       i = İ (CurrentCultureIgnoreCase): False
+        //       i = İ (InvariantCulture): False
+        //       i = İ (InvariantCultureIgnoreCase): False
+        //       i = İ (Ordinal): False
+        //       i = İ (OrdinalIgnoreCase): False
+        //
+
+
+
     }
 }
