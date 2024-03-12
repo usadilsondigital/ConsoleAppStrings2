@@ -18,8 +18,12 @@ namespace ConsoleAppStrings2
                 StringComparison[] comparisons = (StringComparison[])Enum.GetValues(typeof(StringComparison));
 
             foreach (var cultureName in cultureNames)
-            { }
+            {
+                Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(cultureName);
+                Console.WriteLine("Current Culture: {0}", CultureInfo.CurrentCulture.Name);
 
             }
+
+        }
         }
     }
