@@ -28,6 +28,15 @@ namespace ConsoleAppStrings2
                 "\"{0}\" == \"{1}\" ?  {2}",
                 Lower, Comparand, Lower == Comparand);
         }
+        /*
+        This example of the String Equality operator 
+        generates the following output.
+
+        "abcd" == "ijkl" ?  False
+        "abcd" == "ABCD" ?  False
+        "abcd" == "abcd" ?  True
+        */
+
 
     }
 }
