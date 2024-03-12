@@ -10,5 +10,13 @@ namespace ConsoleAppStrings2
     //overloads of the Compare(String, String) and Equals(Object) methods
     public class StringComparison
     {
+            public  void TestCase()
+            {
+                String[] cultureNames = { "en-US", "th-TH", "tr-TR" };
+                String[] strings1 = { "a", "i", "case", };
+                String[] strings2 = { "a-", "\u0130", "Case" };
+                StringComparison[] comparisons = (StringComparison[])Enum.GetValues(typeof(StringComparison));
+
+            }
+        }
     }
-}
