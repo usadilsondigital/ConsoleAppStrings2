@@ -71,7 +71,7 @@ namespace ConsoleAppStrings2
 
         public TimeSpan ToTimeSpan();
 
-
+        public bool TryFormat(Span<byte> utf8Destination, out int bytesWritten, ReadOnlySpan<char> format = default, IFormatProvider? provider = default);
 
 
 
