@@ -56,11 +56,22 @@ namespace ConsoleAppStrings2
 
         public override int GetHashCode();
 
+        
         public bool IsBetween(TimeOnly start, TimeOnly end);
 
         public static TimeOnly Parse(string s);
 
         public static TimeOnly ParseExact(string s, string[] formats, IFormatProvider? provider, System.Globalization.DateTimeStyles style = System.Globalization.DateTimeStyles.None);
+
+        public string ToLongTimeString();
+
+
+
+
+
+
+
+
 
     }
 }
