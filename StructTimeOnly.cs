@@ -65,7 +65,7 @@ namespace ConsoleAppStrings2
 
         public string ToLongTimeString();
 
-
+        public string ToShortTimeString();
 
 
 
