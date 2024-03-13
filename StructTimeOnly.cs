@@ -38,5 +38,7 @@ namespace ConsoleAppStrings2
 
         //Methods
         public TimeOnly Add(TimeSpan value, out int wrappedDays);
+
+        public TimeOnly AddHours(double value, out int wrappedDays);
     }
 }
