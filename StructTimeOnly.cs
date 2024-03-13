@@ -47,5 +47,7 @@ namespace ConsoleAppStrings2
 
         public void Deconstruct(out int hour, out int minute, out int second, out int millisecond, out int microsecond);
 
+        public bool Equals(TimeOnly value);
+
     }
 }
