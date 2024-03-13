@@ -49,5 +49,8 @@ namespace ConsoleAppStrings2
 
         public bool Equals(TimeOnly value);
 
+
+        public static TimeOnly FromDateTime(DateTime dateTime);
+
     }
 }
