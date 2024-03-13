@@ -11,29 +11,32 @@ namespace ConsoleAppStrings2
     public class StructTimeOnly
     {
         //properties
-      /*  Hour
-        Gets the hour component of the time represented by this instance.
+        /*  Hour
+          Gets the hour component of the time represented by this instance.
 
-        MaxValue
-        Gets the largest possible value of TimeOnly.
+          MaxValue
+          Gets the largest possible value of TimeOnly.
 
-        Microsecond
-        Gets the microsecond component of the time represented by this instance.
-                Millisecond
-        Gets the millisecond component of the time represented by this instance.
-                Minute
-        Gets the minute component of the time represented by this instance.
+          Microsecond
+          Gets the microsecond component of the time represented by this instance.
+                  Millisecond
+          Gets the millisecond component of the time represented by this instance.
+                  Minute
+          Gets the minute component of the time represented by this instance.
 
-        MinValue
-        Gets the smallest possible value of TimeOnly.
+          MinValue
+          Gets the smallest possible value of TimeOnly.
 
-        Nanosecond
-        Gets the nanosecond component of the time represented by this instance.
-                Second
-        Gets the seconds component of the time represented by this instance.
+          Nanosecond
+          Gets the nanosecond component of the time represented by this instance.
+                  Second
+          Gets the seconds component of the time represented by this instance.
 
-        Ticks
-        Gets the number of ticks that represent the time of this instance.
-              */
+          Ticks
+          Gets the number of ticks that represent the time of this instance.
+                */
+
+        //Methods
+        public TimeOnly Add(TimeSpan value, out int wrappedDays);
     }
 }
