@@ -56,5 +56,7 @@ namespace ConsoleAppStrings2
 
         public override int GetHashCode();
 
+        public bool IsBetween(TimeOnly start, TimeOnly end);
+
     }
 }
