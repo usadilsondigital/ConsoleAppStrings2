@@ -45,7 +45,7 @@ namespace ConsoleAppStrings2
 
         public int CompareTo(object? value);
 
-
+        public void Deconstruct(out int hour, out int minute, out int second, out int millisecond, out int microsecond);
 
     }
 }
