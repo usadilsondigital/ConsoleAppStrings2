@@ -60,5 +60,7 @@ namespace ConsoleAppStrings2
 
         public static TimeOnly Parse(string s);
 
+        public static TimeOnly ParseExact(string s, string[] formats, IFormatProvider? provider, System.Globalization.DateTimeStyles style = System.Globalization.DateTimeStyles.None);
+
     }
 }
