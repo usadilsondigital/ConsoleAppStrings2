@@ -67,7 +67,7 @@ namespace ConsoleAppStrings2
 
         public string ToShortTimeString();
 
-
+        public string ToString(string? format, IFormatProvider? provider);
 
 
 
