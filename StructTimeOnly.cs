@@ -52,5 +52,7 @@ namespace ConsoleAppStrings2
 
         public static TimeOnly FromDateTime(DateTime dateTime);
 
+        public static TimeOnly FromTimeSpan(TimeSpan timeSpan);
+
     }
 }
