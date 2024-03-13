@@ -58,5 +58,7 @@ namespace ConsoleAppStrings2
 
         public bool IsBetween(TimeOnly start, TimeOnly end);
 
+        public static TimeOnly Parse(string s);
+
     }
 }
