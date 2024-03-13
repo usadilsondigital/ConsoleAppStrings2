@@ -69,6 +69,8 @@ namespace ConsoleAppStrings2
 
         public string ToString(string? format, IFormatProvider? provider);
 
+        public TimeSpan ToTimeSpan();
+
 
 
 
