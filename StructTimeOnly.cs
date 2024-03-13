@@ -54,5 +54,7 @@ namespace ConsoleAppStrings2
 
         public static TimeOnly FromTimeSpan(TimeSpan timeSpan);
 
+        public override int GetHashCode();
+
     }
 }
