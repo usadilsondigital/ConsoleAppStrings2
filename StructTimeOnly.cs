@@ -40,5 +40,12 @@ namespace ConsoleAppStrings2
         public TimeOnly Add(TimeSpan value, out int wrappedDays);
 
         public TimeOnly AddHours(double value, out int wrappedDays);
+
+        public TimeOnly AddMinutes(double value);
+
+
+
+
+
     }
 }
