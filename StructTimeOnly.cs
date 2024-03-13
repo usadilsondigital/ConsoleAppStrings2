@@ -43,7 +43,7 @@ namespace ConsoleAppStrings2
 
         public TimeOnly AddMinutes(double value);
 
-
+        public int CompareTo(object? value);
 
 
 
